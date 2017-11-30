@@ -13,6 +13,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 figlet pemaketan
+./repolist
 echo " Set Remote... "
 git remote set-url origin git@github.com:xentaos/pemaketan.git
 echo " Pull Request Github... "
