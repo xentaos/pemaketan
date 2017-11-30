@@ -1,26 +1,26 @@
 #!/usr/bin/env bash
 figlet repoclean
-# Bersihkan Index Section Import Repository
+# Bersihkan Index Section Import Xenta OS Repository
 rm -rf main/*/*.deb
 rm -rf main/*/*.dsc
 rm -rf main/*/*.tar.xz
 rm -rf main/*/*.build
-# Bersihkan Index Section Main Repository
+# Bersihkan Index Section Main Xenta OS Repository
 rm -rf main/*/*.deb
 rm -rf main/*/*.dsc
 rm -rf main/*/*.tar.xz
 rm -rf main/*/*.build
-# Bersihkan Index Section Queen Repository
+# Bersihkan Index Section Queen Xenta OS Repository
 rm -rf main/*/*.deb
 rm -rf main/*/*.dsc
 rm -rf main/*/*.tar.xz
 rm -rf main/*/*.build
-# Bersihkan Index Section Resticted Repository
+# Bersihkan Index Section Resticted Xenta OS Repository
 rm -rf main/*/*.deb
 rm -rf main/*/*.dsc
 rm -rf main/*/*.tar.xz
 rm -rf main/*/*.build
-# Bersihkan Index Section Upstream Repository
+# Bersihkan Index Section Upstream Xenta OS Repository
 rm -rf main/*/*.deb
 rm -rf main/*/*.dsc
 rm -rf main/*/*.tar.xz

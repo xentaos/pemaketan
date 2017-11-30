@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 figlet repoindex
-# Membuat Index Section Import Repository
-reprepro -Vb  . includedeb arok import/**/*.deb
-reprepro -Vb  . include arok import/**/*.changes
-# Membuat Index Section Main Repository
-reprepro -Vb  . includedeb arok main/**/*.deb
-reprepro -Vb  . include arok main/**/*.changes
-# Membuat Index Section Queen Repository
-reprepro -Vb  . includedeb arok queen/**/*.deb
-reprepro -Vb  . include arok queen/**/*.changes
-# Membuat Index Section Resticted Repository
-reprepro -Vb  . includedeb arok resticted/**/*.deb
-reprepro -Vb  . include arok resticted/**/*.changes
-# Membuat Index Section Upstream Repository
-reprepro -Vb  . includedeb arok upstream/**/*.deb
-reprepro -Vb  . include arok upstream/**/*.changes
+# Membuat Index Section Import Xenta OS Repository
+reprepro -Vb . -C import includedeb arok import/**/*.deb
+reprepro -Vb . -C import include arok import/**/*.changes
+# Membuat Index Section Main Xenta OS Repository
+reprepro -Vb . -C main includedeb arok main/**/*.deb
+reprepro -Vb . -C main include arok main/**/*.changes
+# Membuat Index Section Queen Xenta OS Repository
+reprepro -Vb . -C queen includedeb arok queen/**/*.deb
+reprepro -Vb . -C queen include arok queen/**/*.changes
+# Membuat Index Section Resticted Xenta OS Repository
+reprepro -Vb . -C restricted includedeb arok resticted/**/*.deb
+reprepro -Vb . -C restricted include arok resticted/**/*.changes
+# Membuat Index Section Upstream Xenta OS Repository
+reprepro -Vb . -C upstream includedeb arok upstream/**/*.deb
+reprepro -Vb . -C upstream include arok upstream/**/*.changes
