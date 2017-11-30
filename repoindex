@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+figlet repoindex
 # Membuat Index Section Import Repository
 reprepro -Vb  . includedeb arok import/**/*.deb
 reprepro -Vb  . include arok import/**/*.changes

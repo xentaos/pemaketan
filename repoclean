@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+figlet repoclean
 # Bersihkan Index Section Import Repository
 rm -rf main/*/*.deb
 rm -rf main/*/*.dsc
