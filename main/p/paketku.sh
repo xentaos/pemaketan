@@ -12,6 +12,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-git clone git@github.com:xentaos/paketku.git
-cd paketku
-git remote set-url origin git@github.com:xentaos/paketku.git
+package=paketku
+figlet $package
+mkdir $package
+cd $package
+echo " Mengcoloning Paket $package dari Github Xenta OS Repository... "
+git clone git@github.com:xentaos/$package.git
+echo " Pindah Kelokasi $package dari Github Xenta OS Repository... "
+cd $package
+echo " Membuat Remote $package ke Github Xenta OS Repository... "
+git remote set-url origin git@github.com:xentaos/$package.git
+echo " Berhasil... "

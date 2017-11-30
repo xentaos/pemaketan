@@ -1,0 +1,89 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package xentasystem
+dpkg-buildpackage: source version 8.3.4
+dpkg-buildpackage: source distribution arok
+dpkg-buildpackage: source changed by Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+ dpkg-source --before-build xentasystem
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b xentasystem
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building xentasystem in xentasystem_8.3.4.tar.xz
+dpkg-source: info: building xentasystem in xentasystem_8.3.4.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installman
+   dh_installgsettings
+   dh_perl
+   debian/rules override_dh_usrlocal
+make[1]: Entering directory '/home/dindin/xentaos/pemaketan/main/p/xentasystem'
+# remove this override when there aren't
+# anymore files in /usr/local
+make[1]: Leaving directory '/home/dindin/xentaos/pemaketan/main/p/xentasystem'
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: package xentasystem: unused substitution variable ${perl:Depends}
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'xentasystem' in '../xentasystem_8.3.4_all.deb'.
+ dpkg-genchanges  >../xentasystem_8.3.4_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build xentasystem
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+E: xentasystem changes: bad-distribution-in-changes-file arok
+E: xentasystem changes: changed-by-address-is-root-user Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+E: xentasystem source: maintainer-address-is-root-user Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+W: xentasystem source: dep5-copyright-license-name-not-unique (paragraph at line 28)
+W: xentasystem source: file-without-copyright-information README.md
+W: xentasystem source: file-without-copyright-information gitpush
+W: xentasystem source: debian-watch-file-in-native-package
+W: xentasystem: latest-debian-changelog-entry-without-new-date
+E: xentasystem: maintainer-address-is-root-user Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+E: xentasystem: package-installs-apt-preferences etc/apt/preferences.d/
+E: xentasystem: package-installs-apt-preferences etc/apt/preferences.d/official-extra-repositories.pref
+W: xentasystem: package-installs-into-obsolete-dir etc/bash_completion.d/ : ^etc/bash_completion.d/ -> usr/share/bash-completion/completions (see also https://bugs.debian.org/776954)
+W: xentasystem: package-installs-into-obsolete-dir etc/bash_completion.d/apt-xenta-os : ^etc/bash_completion.d/ -> usr/share/bash-completion/completions (see also https://bugs.debian.org/776954)
+E: xentasystem: dir-in-usr-local usr/local/bin/
+E: xentasystem: file-in-usr-local usr/local/bin/apt
+W: xentasystem: file-in-unusual-dir usr/local/bin/apt
+E: xentasystem: file-in-usr-local usr/local/bin/highlight
+W: xentasystem: file-in-unusual-dir usr/local/bin/highlight
+E: xentasystem: file-in-usr-local usr/local/bin/search
+W: xentasystem: file-in-unusual-dir usr/local/bin/search
+E: xentasystem: file-in-usr-local usr/local/bin/xenta-sha256sum
+W: xentasystem: file-in-unusual-dir usr/local/bin/xenta-sha256sum
+E: xentasystem: init.d-script-missing-dependency-on-remote_fs etc/init.d/xentasystem: required-start
+W: xentasystem: binary-without-manpage usr/bin/check_signals
+W: xentasystem: binary-without-manpage usr/bin/dns-fix
+W: xentasystem: binary-without-manpage usr/bin/xenta-drivers
+W: xentasystem: binary-without-manpage usr/bin/xenta-fortune
+W: xentasystem: maintainer-script-calls-systemctl postinst:29
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile xentasystem_8.3.4.dsc Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+
+ signfile xentasystem_8.3.4_amd64.changes Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+
+Successfully signed dsc and changes files

@@ -14,17 +14,25 @@
 
 figlet repoindex
 # Membuat Index Section Import Xenta OS Repository
-reprepro -Vb . -C import includedeb arok import/**/*.deb
-reprepro -Vb . -C import include arok import/**/*.changes
+# reprepro -Vb . -C import includedeb         arok import/**/*.deb
+# reprepro -Vb . -C import include            arok import/**/*.changes
+
 # Membuat Index Section Main Xenta OS Repository
-reprepro -Vb . -C main includedeb arok main/**/*.deb
-reprepro -Vb . -C main include arok main/**/*.changes
+reprepro -Vb . -C main includedeb           arok main/p/paketku/*.deb
+reprepro -Vb . -C main includedeb           arok main/x/xentasystem/*.deb
+reprepro -Vb . -C main includedeb           arok main/x/xenta-x-icons/*.deb
+reprepro -Vb . -C main include              arok main/p/paketku/*.changes
+reprepro -Vb . -C main include              arok main/x/xentasystem/*.changes
+reprepro -Vb . -C main include              arok main/x/xenta-x-icons/*.changes
+
 # Membuat Index Section Queen Xenta OS Repository
-reprepro -Vb . -C queen includedeb arok queen/**/*.deb
-reprepro -Vb . -C queen include arok queen/**/*.changes
+# reprepro -Vb . -C queen includedeb          arok queen/**/*.deb
+# reprepro -Vb . -C queen include             arok queen/**/*.changes
+
 # Membuat Index Section Resticted Xenta OS Repository
-reprepro -Vb . -C restricted includedeb arok resticted/**/*.deb
-reprepro -Vb . -C restricted include arok resticted/**/*.changes
+# reprepro -Vb . -C restricted includedeb     arok resticted/**/*.deb
+# reprepro -Vb . -C restricted include        arok resticted/**/*.changes
+
 # Membuat Index Section Upstream Xenta OS Repository
-reprepro -Vb . -C upstream includedeb arok upstream/**/*.deb
-reprepro -Vb . -C upstream include arok upstream/**/*.changes
+# reprepro -Vb . -C upstream includedeb       arok upstream/**/*.deb
+# reprepro -Vb . -C upstream include          arok upstream/**/*.changes

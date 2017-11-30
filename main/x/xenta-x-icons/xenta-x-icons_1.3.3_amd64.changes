@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 08 Nov 2017 19:40:32 +0700
+Source: xenta-x-icons
+Binary: xenta-x-icons
+Architecture: source all
+Version: 1.3.3
+Distribution: arok
+Urgency: medium
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Changed-By: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Description:
+ xenta-x-icons - Paket Xenta-X Icon themes
+Changes:
+ xenta-x-icons (1.3.3) arok; urgency=medium
+ .
+   * Menambahkan Icons Bagian apps
+     electron-eitcher
+Checksums-Sha1:
+ b2b0cb5c6d1c21331d20143804c72b026d406f4e 1021 xenta-x-icons_1.3.3.dsc
+ b501fe8a64232ccd5861dcb683d60dd6bb65520f 10253420 xenta-x-icons_1.3.3.tar.xz
+ 22b5d6dda9fa22b3fc10430a307c7171f7301c92 10019064 xenta-x-icons_1.3.3_all.deb
+Checksums-Sha256:
+ 061f4aaff43ea46a591df57df34516132eac35b0c0fe0ee9337a4c22680f792f 1021 xenta-x-icons_1.3.3.dsc
+ a7f158d6e8753654ef6a0df48ebe05397794f2b218ef94a83f1b6c8bb19b7f1e 10253420 xenta-x-icons_1.3.3.tar.xz
+ 0b6de06ad541d15e98f8f9d4861cd217b292a12e1c8c705eedbd063510665cab 10019064 xenta-x-icons_1.3.3_all.deb
+Files:
+ 84380ae65a5224e2247431ea45c7781d 1021 gnome optional xenta-x-icons_1.3.3.dsc
+ 11ee58659d07f441685b42863750f87e 10253420 gnome optional xenta-x-icons_1.3.3.tar.xz
+ 797474957ef9c84b313b0dd10bcb2dde 10019064 gnome optional xenta-x-icons_1.3.3_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iJwEAQECAAYFAlogX84ACgkQTtsL95Wc3dFlJgQAs8oR681I+F/fsnn3Ez/9WUn7
+wC9HnFkKmA8KO3+tSGXtLy0+2qTMdZS7xXpBl7PSxN8aAUD6gFkWY69qgXbh7vKQ
+xbvbpjZQ1rBRdaB/y+3mFPUn9Zls28xqngcmNht8YKHGDKxqtC3NhQHJpeI7vx4a
+cHxI1xMCB7Ompz4fxvo=
+=UEl/
+-----END PGP SIGNATURE-----
