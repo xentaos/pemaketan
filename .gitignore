@@ -24,9 +24,9 @@ upstream/*/*/*.changes
 upstream/*/*/*.deb
 upstream/*/*/*.dsc
 upstream/*/*/*.tar.xz
-pool
-db
-dists
+#pool
+#db
+#dists
 
 # No Import Index
 import/g/gbilling-client
