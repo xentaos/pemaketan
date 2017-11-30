@@ -1,4 +1,4 @@
----
+# Sections Xenta OS Repository
 **main**: 
 Repositori utama-required pada sistem operasi Xenta OS.  
 Berisi paket paket utama sebagai base dari sistem operasi.  
