@@ -14,8 +14,8 @@
 
 figlet repoindex
 # Membuat Index Section Import Xenta OS Repository
-# reprepro -Vb . -C import includedeb         arok import/**/*.deb
-# reprepro -Vb . -C import include            arok import/**/*.changes
+reprepro -Vb . -C import includedeb         arok import/g/gbilling-client/*.deb
+reprepro -Vb . -C import include            arok import/g/gbilling-client/*.changes
 
 # Membuat Index Section Main Xenta OS Repository
 reprepro -Vb . -C main includedeb           arok main/p/paketku/*.deb
@@ -36,3 +36,5 @@ reprepro -Vb . -C main include              arok main/x/xenta-x-icons/*.changes
 # Membuat Index Section Upstream Xenta OS Repository
 # reprepro -Vb . -C upstream includedeb       arok upstream/**/*.deb
 # reprepro -Vb . -C upstream include          arok upstream/**/*.changes
+./repolist
+reprepro clearvanished
