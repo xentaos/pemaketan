@@ -1,7 +1,7 @@
 # Prioritas Xenta OS Repository
 **required**:
 Paket yang diperlukan untuk berfungsinya sistem (biasanya, ini berarti fungsi dpkg bergantung pada paket ini). 
-Melepaskan paket yang diperlukan dapat menyebabkan   sistem Anda menjadi rusak total dan Anda mungkin bahkan tidak
+Melepaskan paket yang diperlukan dapat menyebabkan sistem Anda menjadi rusak total dan Anda mungkin bahkan tidak
 dapat menggunakan dpkg untuk mengembalikan semuanya, jadi lakukan saja jika Anda tahu apa yang Anda lakukan.
 Sistem dengan paket yang dibutuhkan hanya menginstal setidaknya memiliki cukup fungsi untuk sysadmin 
 untuk boot sistem dan menginstal lebih banyak perangkat lunak.
