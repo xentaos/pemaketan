@@ -21,3 +21,5 @@
  *  
  *  
 <!-- https://github.com/esc/reprepro/blob/master/docs/short-howto -->
+# Doc
+### [Prioritas](doc/prioritas.md) [Sections](doc/sections.md)
