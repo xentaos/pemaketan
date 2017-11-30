@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Bersihkan Index Section Import Repository
+rm -rf main/*/*.deb
+rm -rf main/*/*.dsc
+rm -rf main/*/*.tar.xz
+rm -rf main/*/*.build
+# Bersihkan Index Section Main Repository
+rm -rf main/*/*.deb
+rm -rf main/*/*.dsc
+rm -rf main/*/*.tar.xz
+rm -rf main/*/*.build
+# Bersihkan Index Section Queen Repository
+rm -rf main/*/*.deb
+rm -rf main/*/*.dsc
+rm -rf main/*/*.tar.xz
+rm -rf main/*/*.build
+# Bersihkan Index Section Resticted Repository
+rm -rf main/*/*.deb
+rm -rf main/*/*.dsc
+rm -rf main/*/*.tar.xz
+rm -rf main/*/*.build
+# Bersihkan Index Section Upstream Repository
+rm -rf main/*/*.deb
+rm -rf main/*/*.dsc
+rm -rf main/*/*.tar.xz
+rm -rf main/*/*.build
