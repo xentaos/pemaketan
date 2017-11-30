@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-figlet gitpush
+figlet repogitpush
 git pull
 git add -A
 git commit -am "update"
