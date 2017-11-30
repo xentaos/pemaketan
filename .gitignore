@@ -26,7 +26,7 @@ upstream/*/*.build
 upstream/*/*.tar.xz
 pool
 db
-dists/*
+dists
 # No Index
 main/p/paketku
 
