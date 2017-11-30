@@ -22,5 +22,5 @@
  *  
 <!-- https://github.com/esc/reprepro/blob/master/docs/short-howto -->
 # Doc
-Mengenal Lebih tentang Repository Xenta OS. Pelajari di Dokumentasi Xenta OS.  
-[Read](doc/README.md)
+Mengenal Lebih tentang Repository Xenta OS dan Pelajari Bagaimana Xenta OS Membangun Sebuah Repository Package.  
+[Baca Selengkapnya...](doc/README.md)
