@@ -22,5 +22,5 @@
  *  
 <!-- https://github.com/esc/reprepro/blob/master/docs/short-howto -->
 # Doc
-Mengenal Lebih tentang Repository Xenta OS dan Pelajari Bagaimana Xenta OS Membangun Sebuah Repository Package.  
+Mengenal Lebih tentang Repository Xenta OS dan Pelajari Bagaimana Xenta OS Membangun Sebuah Repository APT Packages Debian.  
 [Baca Selengkapnya...](doc/README.md)
