@@ -1,0 +1,33 @@
+# Hide Directory
+import/*/*.deb
+import/*/*.dsc
+import/*/*.changes
+import/*/*.build
+import/*/*.tar.xz
+main/*/*.deb
+main/*/*.dsc
+main/*/*.changes
+main/*/*.build
+main/*/*.tar.xz
+queen/*/*.deb
+queen/*/*.dsc
+queen/*/*.changes
+queen/*/*.build
+queen/*/*.tar.xz
+restricted/*/*.deb
+restricted/*/*.dsc
+restricted/*/*.changes
+restricted/*/*.build
+restricted/*/*.tar.xz
+upstream/*/*.deb
+upstream/*/*.dsc
+upstream/*/*.changes
+upstream/*/*.build
+upstream/*/*.tar.xz
+pool
+db
+dist
+# No Index
+main/p/paketku
+
+
