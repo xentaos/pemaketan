@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+figlet repolist
+reprepro list arok > list
