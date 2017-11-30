@@ -8,7 +8,7 @@ untuk boot sistem dan menginstal lebih banyak perangkat lunak.
 
 **important**:
 Program penting, termasuk yang diharapkan ada di sistem mirip Unix. Jika harapannya adalah orang Unix berpengalaman 
-yang menemukannya hilang akan mengatakan "Apa yang sedang terjadi, di mana foo?", Itu pasti paket penting. [5] Paket lain 
+yang menemukannya hilang akan mengatakan "Apa yang sedang terjadi, di mana foo?", Itu pasti paket penting. Paket lain 
 yang tanpanya sistem tidak berjalan dengan baik atau dapat digunakan juga harus memiliki prioritas penting. Ini tidak 
 termasuk Emacs, X Window System, TeX atau aplikasi besar lainnya. Paket-paket penting hanya sebagian kecil dari 
 alat yang biasanya diharapkan dan dibutuhkan.
