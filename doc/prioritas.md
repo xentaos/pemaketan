@@ -1,4 +1,7 @@
-# Prioritas Xenta OS Repository
+# Xenta OS Repository
+## [Prioritas](prioritas.md) [Sections](sections.md)
+---
+# Prioritas
 **required**:
 Paket yang diperlukan untuk berfungsinya sistem (biasanya, ini berarti fungsi dpkg bergantung pada paket ini). 
 Melepaskan paket yang diperlukan dapat menyebabkan sistem Anda menjadi rusak total dan Anda mungkin bahkan tidak

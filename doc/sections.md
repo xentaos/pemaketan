@@ -1,4 +1,7 @@
-# Sections Xenta OS Repository
+# Xenta OS Repository
+## [Prioritas](prioritas.md) [Sections](sections.md)
+---
+# Sections
 **main**: 
 Repositori utama-required pada sistem operasi Xenta OS. 
 Berisi paket paket utama sebagai base dari sistem operasi. 
