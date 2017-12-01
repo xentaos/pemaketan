@@ -1,9 +1,9 @@
 # No Index Project Repository
 # ----------------------------------------------------
-project/repository/pool
-project/repository/db
-project/repository/dists
-project/repository/conf
+# project/repository/pool
+# project/repository/db
+# project/repository/dists
+# project/repository/conf
 
 # No Index Project Packages Section Import
 # ----------------------------------------------------
