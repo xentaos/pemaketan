@@ -3,7 +3,7 @@ git@github.com:xentaos/gbilling-client.git
 git@github.com:xentaos/gbilling-server.git
 
 # Section Main Repository
-git@github.com:xentaos/grub2-theme-xenta.git
+signed == git@github.com:xentaos/grub2-theme-xenta.git
 git@github.com:xentaos/libreoffice-style-xenta.git
 signed  git@github.com:xentaos/paketku.git
 git@github.com:xentaos/plymouth-theme-xentaos.git

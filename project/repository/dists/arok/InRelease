@@ -6,19 +6,19 @@ Label: xentaos
 Suite: arok
 Codename: arok
 Version: 1.3
-Date: Fri, 01 Dec 2017 14:56:38 UTC
+Date: Fri, 01 Dec 2017 17:30:16 UTC
 Architectures: i386 amd64
 Components: main upstream import restricted queen
 Description: Xenta OS 1.3 LTS official repository
 MD5Sum:
- 3321ca9fa84b16000dcf99abce04e4c1 2041 main/binary-i386/Packages
- 7c91e43425d462c1f4cbbbebf6cb3090 881 main/binary-i386/Packages.gz
+ dfa5d27a6a0eb08ceae0dde70c52aeb4 2665 main/binary-i386/Packages
+ 5aee2ffda2850f14e233a6d740923e5b 1074 main/binary-i386/Packages.gz
  6704bfaac78e03722c0c6e5714bccf97 143 main/binary-i386/Release
- 3321ca9fa84b16000dcf99abce04e4c1 2041 main/binary-amd64/Packages
- 7c91e43425d462c1f4cbbbebf6cb3090 881 main/binary-amd64/Packages.gz
+ dfa5d27a6a0eb08ceae0dde70c52aeb4 2665 main/binary-amd64/Packages
+ 5aee2ffda2850f14e233a6d740923e5b 1074 main/binary-amd64/Packages.gz
  7d06ae2abb8c4e27e96dea74aa55550f 144 main/binary-amd64/Release
- 648cca8945b5e8bd3ecab34647618533 1895 main/source/Sources
- 15249bcad7b99df0a1bdacc1f3b3b7aa 814 main/source/Sources.gz
+ 117126b665a0da30672c273def522e5c 2902 main/source/Sources
+ 3822a10d5a722011f7e98b0a7b0190e8 1078 main/source/Sources.gz
  87214af898d39febc2cf93648468035a 145 main/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 upstream/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 upstream/binary-i386/Packages.gz
@@ -57,14 +57,14 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 queen/source/Sources.gz
  a6908185714ef6e6bdefef44d3447993 146 queen/source/Release
 SHA1:
- 3a75b55dc6560dae5d06b56e1119948e3a3d5656 2041 main/binary-i386/Packages
- 9975014d07306a01f1c13ba505e8971d4ef05db5 881 main/binary-i386/Packages.gz
+ 461d2855dfa295e078745884a6aa8c44aa64c6ce 2665 main/binary-i386/Packages
+ bbaddc979bf2bcb35324d1dea9d860bf706e5099 1074 main/binary-i386/Packages.gz
  fc8b8a7d02111f237fb1fcc00aa1d275b87e5195 143 main/binary-i386/Release
- 3a75b55dc6560dae5d06b56e1119948e3a3d5656 2041 main/binary-amd64/Packages
- 9975014d07306a01f1c13ba505e8971d4ef05db5 881 main/binary-amd64/Packages.gz
+ 461d2855dfa295e078745884a6aa8c44aa64c6ce 2665 main/binary-amd64/Packages
+ bbaddc979bf2bcb35324d1dea9d860bf706e5099 1074 main/binary-amd64/Packages.gz
  3937c84d3bc20f03b5cb821b8b01b46348f1b5b0 144 main/binary-amd64/Release
- 7d87a6aa56a628e3c440980a0787f22571e6a1e1 1895 main/source/Sources
- 3f4ff524ef70b6b8ff24828aca869843917cb142 814 main/source/Sources.gz
+ 9561ee46c2ae97252ef38e323142e4b607cf185d 2902 main/source/Sources
+ 1615d4670bc9c07a038d23141a0899f95c69f6d9 1078 main/source/Sources.gz
  5d2d1bbb760bea324cc69eab830e3cac373d5345 145 main/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 upstream/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 upstream/binary-i386/Packages.gz
@@ -103,14 +103,14 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 queen/source/Sources.gz
  be7b5d9b9c5c9c56e89de3d417c7da8e3c52d609 146 queen/source/Release
 SHA256:
- 82353d4cf07bc0c274df03738cbd59607d6a9abfffe1b6c36add46c7d92fe12b 2041 main/binary-i386/Packages
- 3326297e917a21b457d64b60b533ef4af68386e4c9b3c19b40ab0fbbd17d8a35 881 main/binary-i386/Packages.gz
+ bca209649ff7116f3c32e30928fbab41404d2a574af8400310342131813c73c1 2665 main/binary-i386/Packages
+ 1e13cc41639f4fd1e4985589a0bc5118dc7e9fd69d649904dd266052393aa70e 1074 main/binary-i386/Packages.gz
  f38679efd5feaec46ee7919cef1f979d746fc8535ee98f66fd14fe868c585418 143 main/binary-i386/Release
- 82353d4cf07bc0c274df03738cbd59607d6a9abfffe1b6c36add46c7d92fe12b 2041 main/binary-amd64/Packages
- 3326297e917a21b457d64b60b533ef4af68386e4c9b3c19b40ab0fbbd17d8a35 881 main/binary-amd64/Packages.gz
+ bca209649ff7116f3c32e30928fbab41404d2a574af8400310342131813c73c1 2665 main/binary-amd64/Packages
+ 1e13cc41639f4fd1e4985589a0bc5118dc7e9fd69d649904dd266052393aa70e 1074 main/binary-amd64/Packages.gz
  34df098db68dc462d08af6cfcbcc99ce646b78b0d4062de10ef4b256ef359c64 144 main/binary-amd64/Release
- 94580018e31aa434bc0a3fb29db8d223bdf6974ba8b4872d0594894fba5057f8 1895 main/source/Sources
- 40b71b70a03324244cbda2e858d2ba7fc3c53f5fedf202ad953a0d409bbcf14b 814 main/source/Sources.gz
+ b7097907f10397baab41d07feed72b3d44fcf0fe7d9f884010f22efe31c27112 2902 main/source/Sources
+ d7b5662cf6cc4ce84ebf59240f49616a93f647a4a9d966ccb28a2ee2143ef2fb 1078 main/source/Sources.gz
  c9eed394af187125f395381be4b6fb3bc68874b6eead987fee36911e0353048d 145 main/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 upstream/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 upstream/binary-i386/Packages.gz
@@ -151,9 +151,9 @@ SHA256:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iJwEAQEIAAYFAlohbacACgkQTtsL95Wc3dHdXgP/e6IcH+k52cBFhMGOOQvQOjoo
-DGHTCNJEvjWNDPiTRmIp+3hvbl9ByjDemN7z4OnYg0a0plWw0Ezg0XkMD+kMrldV
-9c1v//CG/1wv+7VT7JNMhdeBk7raUbv+8s06/TXNRCYPrIiooDW76VYjRAivn5Ao
-MvVr37g7LYTYNw47STU=
-=dB1b
+iJwEAQEIAAYFAlohkagACgkQTtsL95Wc3dEDsAP7BIFH59QaewAhAg9XNkm0dt5B
+jD27SDC14a2ucEDpxLJIugb5HQOujgwGN8VIvh0Xy4lnH7SYkakdqTPGgdI6+E8m
+ndNTm3aFeUNtkSgkQNXnlOKnH5hGz3lsDD3KdXg8pLTIQXe5BozLvhPvDb7Z826X
+PKzRFXu82pJbS004sl8=
+=k+vv
 -----END PGP SIGNATURE-----

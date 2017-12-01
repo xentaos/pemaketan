@@ -79,7 +79,7 @@ figlet repoindex
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/e/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/f/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/g/**/*.deb
-# reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/g/grub2-theme-xenta/*.deb
+reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/g/grub2-theme-xenta/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/h/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/i/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/j/**/*.deb
@@ -137,7 +137,7 @@ reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/p
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/e/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/f/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/g/**/*.changes
-# reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/g/grub2-theme-xenta/*.changes
+reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/g/grub2-theme-xenta/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/h/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/i/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/project/packages/main/j/**/*.changes
