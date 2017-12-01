@@ -1,0 +1,74 @@
+Package: grub2-theme-xenta
+Version: 1.3.2
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 16
+Conflicts: grub2-theme-mint
+Replaces: grub2-theme-mint
+Homepage: https://github.com/xentaos/grub2-theme-xenta
+Priority: optional
+Section: misc
+Filename: pool/main/g/grub2-theme-xenta/grub2-theme-xenta_1.3.2_all.deb
+Size: 2884
+SHA256: c57a0ec6b613ef9a68715072184d7b2443d810de981b53d14a2ef44bd4a33bd0
+SHA1: 888d1dc2524b3d957540a359cf41cc338c1f2ac8
+MD5sum: 8da57d40f0722ef99a21fc4c165e4031
+Description: Paket Grub2 theme untuk Xenta OS.
+ Bawaan Theme Grub2 untuk Xenta OS Semua Edisi.
+
+Package: paketku
+Version: 1.3.5
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 24
+Depends: paketku-dep
+Homepage: https://github.com/xentaos/paketku
+Priority: optional
+Section: utils
+Filename: pool/main/p/paketku/paketku_1.3.5_all.deb
+Size: 14758
+SHA256: 0bd31fdb8c1b3673910d65941fb18625cfaabf196dc5a4329424f367bab461ee
+SHA1: 9af5e9b494c1b92644ba78bad36565bb77a52fc3
+MD5sum: 6bca06f277b1c61fad448a8d5602c9f2
+Description: Paket Contoh Buat Xenta OS Tim Pemaketan.
+ Paketku merupakan sebuah paket contoh digunakan
+ sebagai Pustaka Tim Pemaketan dari Xenta OS.
+ Ini Merupakan Paket Utama Sebagai Contoh.
+
+Package: paketku-dep
+Source: paketku
+Version: 1.3.5
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 11
+Homepage: https://github.com/xentaos/paketku
+Priority: optional
+Section: utils
+Filename: pool/main/p/paketku/paketku-dep_1.3.5_all.deb
+Size: 2274
+SHA256: edb76dc24ef47cdf6bacfca5a5cfaeddccc8c4fcc189ac63f19fa6917417afb3
+SHA1: 84374e953683707523d5b15917364b6ae74366e8
+MD5sum: 889f16ba30e5a471bc36f06bd2b4b227
+Description: Paket Contoh Buat Xenta OS Tim Pemaketan.
+ Paketku merupakan sebuah paket contoh digunakan
+ sebagai Pustaka Tim Pemaketan dari Xenta OS.
+ Ini Merupakan Paket Dependency dari Paket Paketku.
+
+Package: xentasystem
+Version: 8.3.4
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 93
+Depends: python3 (>= 3.3), perl, apt, aptitude, gist, zenity, dconf-gsettings-backend | gsettings-backend
+Homepage: https://github.com/xentaos/xentasystem
+Priority: optional
+Section: admin
+Filename: pool/main/x/xentasystem/xentasystem_8.3.4_all.deb
+Size: 17904
+SHA256: caadd33aefb3c6ece73bfe4292be9cb5c443908b23e2b9ad76f54d14bc9d9b63
+SHA1: 16d7a67856f9639bd28949fbd3be1a5785a0a440
+MD5sum: 252a03e7a5258dd6ac2dc051c8ac3751
+Description: Paket Base Sistem Xenta OS berisi init sistemd.
+ Digunakan oleh desktop dan alat Xenta OS lainnya untuk dikumpul
+ informasi dan proses tugas sistem yang umum.
+
