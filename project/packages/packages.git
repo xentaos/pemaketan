@@ -1,5 +1,5 @@
 # Section Import Repository
-signed  git@github.com:xentaos/gbilling-client.git
+git@github.com:xentaos/gbilling-client.git
 git@github.com:xentaos/gbilling-server.git
 
 # Section Main Repository
