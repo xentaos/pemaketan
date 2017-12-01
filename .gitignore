@@ -4,9 +4,9 @@ project/repository/pool
 project/repository/db
 project/repository/dists
 # project/repository/conf
-project/repository/repoclean
-project/repository/repoindex
-project/repository/repolist
+# project/repository/repoclean
+# project/repository/repoindex
+# project/repository/repolist
 project/repository/repository.list
 # No Index Project Packages Section Import
 # ----------------------------------------------------
