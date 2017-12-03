@@ -1,25 +1,31 @@
-# Team
-**Maintainer**  
-<!-- * Nama <E-Mail> -->
- *  Dindin Hernawan <root@dev.xentaos.org> [ 707E C01E AC3C 2F7F 8723  30CB 4EDB 0BF7 959C DDD1 ]
+# Kesenian
+**Xenta OS** merupakan Sebuah Distribusi (Distro) Sistem Operasi Bebas/Merdeka GNU/Linux Lokal Indonesia.
+Didistribusikan oleh **X7 Project (X7P)** Sebuah Project Non-Profit.
+Didirikan oleh Dindin Hernawan Bertujuan sebagai Wadah Berkomunitas Sesama Penggiat GNU/Linux dan Kreatifitas Kesenian Digital.  
 
+## Team
+Team Kesenian.  
+Kunjungi [Website Developer](http://dev.xentaos.org/team.html)
 
-**Packaging**  
-<!-- * Nama <E-Mail> -->
- *  
- *  
- *  
- *  
- *  
- *  
- *  
- *  
- *  
- *  
- *  
- *  
- *  
- *  
-<!-- https://github.com/esc/reprepro/blob/master/docs/short-howto -->
-# Doc
-Mengenal Lebih tentang Repository Xenta OS dan Pelajari Bagaimana Xenta OS Membangun Sebuah Repository APT Packages Debian. [Baca Selengkapnya...](pustaka/doc/README.md)
+## Mission
+Mission Tim Kesenian.  
+Kunjungi [Website Developer](http://dev.xentaos.org/mission.html)
+
+## Project
+Project Tim Kesenian.  
+Kunjungi [Website Developer](http://dev.xentaos.org/project.html)
+
+## Progress
+Progress Tim Kesenian.  
+Kunjungi [Website Developer](http://dev.xentaos.org/progress.html)
+
+## Perkakas
+Perkakas Perangkat Lunak Free/Open Source Software Graphic Editor.  
+**Required:**  
+ * [Blender](https://www.blender.org/)
+ * [Gimp](https://www.gimp.org/)
+ * [Inkscape](https://inkscape.org/)
+
+**Optional:**  
+ * [Gravit](https://gravit.io/) 
+ * [Krita](https://krita.org/en/)
