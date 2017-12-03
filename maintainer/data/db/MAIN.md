@@ -21,13 +21,13 @@ git@github.com:xentaos/xenta-mirrors.git
 git@github.com:xentaos/xentaos-keyring.git  
 git@github.com:xentaos/xenta-psdthumbnailer.git  
 git@github.com:xentaos/xentaremaster.git  
-git@github.com:xentaos/xentascreenfetch.git  
+ * git@github.com:xentaos/xentascreenfetch.git  
 git@github.com:xentaos/xenta-software-center.git  
 git@github.com:xentaos/xentasources.git  
-git@github.com:xentaos/xentasystem.git  
+ * git@github.com:xentaos/xentasystem.git  
 git@github.com:xentaos/xenta-translations.git  
 git@github.com:xentaos/xenta-user-guide.git  
-git@github.com:xentaos/xenta-welcome-screen.git  
+ * git@github.com:xentaos/xenta-welcome-screen.git  
  * git@github.com:xentaos/xenta-x-icons.git  
-git@github.com:xentaos/xenta-x-theme.git  
+ * git@github.com:xentaos/xenta-x-theme.git  
 
