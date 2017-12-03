@@ -1,0 +1,11 @@
+arok|main|i386: grub2-theme-xenta 1.3.2
+arok|main|i386: paketku 1.3.5
+arok|main|i386: paketku-dep 1.3.5
+arok|main|i386: xentasystem 8.3.4
+arok|main|amd64: grub2-theme-xenta 1.3.2
+arok|main|amd64: paketku 1.3.5
+arok|main|amd64: paketku-dep 1.3.5
+arok|main|amd64: xentasystem 8.3.4
+arok|main|source: grub2-theme-xenta 1.3.2
+arok|main|source: paketku 1.3.5
+arok|main|source: xentasystem 8.3.4
