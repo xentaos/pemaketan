@@ -3,6 +3,8 @@
 Didistribusikan oleh **X7 Project (X7P)** Sebuah Project Non-Profit.
 Didirikan oleh Dindin Hernawan Bertujuan sebagai Wadah Berkomunitas Sesama Penggiat GNU/Linux dan Kreatifitas KesSenian Digital.  
 
+## Maintainer
+
 ## Team
 Team Pemaketan.  
 Kunjungi [Website Developer](http://dev.xentaos.org/team.html)
@@ -24,6 +26,4 @@ Perkakas Perangkat Lunak Free/Open Source Software Graphic Editor.
 **Required:**  
 Perangkat Lunak yang dibutuhkan :
  * git
-
-## Maintainer
 
