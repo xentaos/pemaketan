@@ -1,6 +1,5 @@
 # Xenta OS Repository
-## [Prioritas](prioritas.md) [Sections](sections.md)
----
+## [Prioritas](PRIORITAS.md) [Sections](SECTIONS.md)
 # Prioritas
 **required**:
 Paket yang diperlukan untuk berfungsinya sistem (biasanya, ini berarti fungsi dpkg bergantung pada paket ini). 

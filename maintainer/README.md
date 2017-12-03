@@ -1,3 +1,3 @@
 # Xenta OS Repository
-## [Prioritas](prioritas.md) [Sections](sections.md)
+## [Prioritas](doc/PRIORITAS.md) [Sections](doc/SECTIONS.md)
 ---
