@@ -129,7 +129,7 @@ reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/p
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-welcome-screen/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-icons/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-x-icons/*.deb
-# reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-x-theme/*.deb
+reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-x-theme/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/y/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/z/**/*.deb
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/a/**/*.changes
@@ -187,7 +187,7 @@ reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/pack
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-welcome-screen/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-icons/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-x-icons/*.changes
-# reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-x-theme/*.changes
+reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-x-theme/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/y/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/z/**/*.changes
 
