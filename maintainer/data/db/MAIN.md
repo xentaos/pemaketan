@@ -18,7 +18,7 @@ git@github.com:xentaos/xenta-mdm-themes-gdm.git
 git@github.com:xentaos/xenta-mdm-themes.git  
 git@github.com:xentaos/xenta-mdm-themes-html.git  
 git@github.com:xentaos/xenta-mirrors.git  
-git@github.com:xentaos/xentaos-keyring.git  
+ * git@github.com:xentaos/xentaos-keyring.git  
 git@github.com:xentaos/xenta-psdthumbnailer.git  
 git@github.com:xentaos/xentaremaster.git  
  * git@github.com:xentaos/xentascreenfetch.git  

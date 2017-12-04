@@ -1,5 +1,5 @@
 # No Index Project Repository
-# ----------------------------------------------------
+#-----------------------------------------------
 repository/pool
 repository/db
 repository/dists
@@ -9,7 +9,7 @@ repository/dists
 # repository/repolist
 repository/repository.list
 # No Index Project Packages Section Import
-# ----------------------------------------------------
+#-----------------------------------------------
 packages/import/*/*/*.build
 packages/import/*/*/*.changes
 packages/import/*/*/*.deb
@@ -46,7 +46,7 @@ packages/import/g/gbilling-server
 
 
 # No Index Project Packages Section Main
-# ----------------------------------------------------
+#-----------------------------------------------
 packages/main/*/*/*.build
 packages/main/*/*/*.changes
 packages/main/*/*/*.deb
@@ -112,7 +112,7 @@ packages/main/x/xenta-x-theme
 #packages/main/z/
 
 # No Index Project Packages Section Queen
-# ----------------------------------------------------
+#-----------------------------------------------
 packages/queen/*/*/*.build
 packages/queen/*/*/*.changes
 packages/queen/*/*/*.deb
@@ -148,7 +148,7 @@ packages/queen/*/*/*.tar.xz
 #packages/queen/z/
 
 # No Index Project Packages Section Restricted
-# ----------------------------------------------------
+#-----------------------------------------------
 packages/restricted/*/*/*.build
 packages/restricted/*/*/*.changes
 packages/restricted/*/*/*.deb
@@ -184,7 +184,7 @@ packages/restricted/*/*/*.tar.xz
 #packages/restricted/z/
 
 # No Index Project Packages Section Upstream
-# ----------------------------------------------------
+#-----------------------------------------------
 packages/upstream/*/*/*.build
 packages/upstream/*/*/*.changes
 packages/upstream/*/*/*.deb
