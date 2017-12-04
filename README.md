@@ -2,8 +2,10 @@
 Xenta OS adalah Distribusi Sistem Operasi GNU/Linux Lokal Indonesia. Proyek ini terbuka bagi siapa saja yang mau berkontribusi. Tujuan didirikannya proyek ini salah satunya sebagai wadah berkreatifitas dan berkomunitas sesama penggiat GNU/Linux asal Indonesia.  Tertarik bergabung ? [Gabung disini](http://dev.xentaos.org/join.html).
 
 Perangkat Lunak yang diperlukan dalam Berkontribusi:  
+
+**Cloning a repository to Local...** [Baca disini](https://help.github.com/articles/cloning-a-repository/)
 **Required:**  
- * [Git](https://git-scm.com/)
+ * [Git](https://git-scm.com/)  
 Pemasangan Perangkat Lunak melalui APT (Debian/Ubuntu/Linux Mint/Xenta OS).  
 > sudo apt-get install git
 
