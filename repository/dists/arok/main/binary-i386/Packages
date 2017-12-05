@@ -1,0 +1,172 @@
+Package: grub2-theme-xenta
+Version: 1.3.2
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 16
+Conflicts: grub2-theme-mint
+Replaces: grub2-theme-mint
+Homepage: https://github.com/xentaos/grub2-theme-xenta
+Priority: optional
+Section: misc
+Filename: pool/main/g/grub2-theme-xenta/grub2-theme-xenta_1.3.2_all.deb
+Size: 2884
+SHA256: c57a0ec6b613ef9a68715072184d7b2443d810de981b53d14a2ef44bd4a33bd0
+SHA1: 888d1dc2524b3d957540a359cf41cc338c1f2ac8
+MD5sum: 8da57d40f0722ef99a21fc4c165e4031
+Description: Paket Grub2 theme untuk Xenta OS.
+ Bawaan Theme Grub2 untuk Xenta OS Semua Edisi.
+
+Package: oem-config
+Source: ubiquity
+Version: 2.21.63+linuxmint6
+Architecture: all
+Maintainer: Linux Mint Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 221
+Depends: debconf (>= 0.5) | debconf-2.0, lsb-base (>= 4.1+Debian11ubuntu7), ubiquity (= 2.21.63+linuxmint6), oem-config-frontend-2.21.63+linuxmint6, procps
+Conflicts: oem-config-keyboard, oem-config-locale, oem-config-timezone
+Replaces: oem-config-gtk (<< 1.54.13), oem-config-kde (<< 1.54.13), oem-config-keyboard, oem-config-locale, oem-config-timezone
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/oem-config_2.21.63+linuxmint6_all.deb
+Size: 187786
+SHA256: 40a6936ab647abc2886e0ae527de2c6892d588892703b4992fac4dc4911dcad8
+SHA1: 605601df6dc6c2bba79a0fddfade08277190dceb
+MD5sum: bc8d657d3c25a3c5c500876f3212fe5b
+Description: Perform end-user configuration after initial OEM installation
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+
+Package: oem-config-gtk
+Source: ubiquity
+Version: 2.21.63+linuxmint6
+Architecture: all
+Maintainer: Linux Mint Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 188
+Depends: oem-config (= 2.21.63+linuxmint6), ubiquity-frontend-gtk (= 2.21.63+linuxmint6), python3-aptdaemon.gtk3widgets, aptdaemon
+Replaces: oem-config (<< 1.0)
+Provides: oem-config-frontend-2.21.63+linuxmint6
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/oem-config-gtk_2.21.63+linuxmint6_all.deb
+Size: 181682
+SHA256: a05ab61fc5bb7f0842d14d33d4794fd886c71a64e084dd77fc9f62a47dcb916d
+SHA1: 105610e54564beac2bf4246a3fe1f1943336c1b0
+MD5sum: 1d9b30b607fd096c84f1a1a2797580b8
+Description: GTK+ frontend for end-user post-OEM-install configuration
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+ .
+ This is a GTK+ frontend to oem-config.
+
+Package: paketku
+Version: 1.3.5
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 24
+Depends: paketku-dep
+Homepage: https://github.com/xentaos/paketku
+Priority: optional
+Section: utils
+Filename: pool/main/p/paketku/paketku_1.3.5_all.deb
+Size: 14758
+SHA256: 0bd31fdb8c1b3673910d65941fb18625cfaabf196dc5a4329424f367bab461ee
+SHA1: 9af5e9b494c1b92644ba78bad36565bb77a52fc3
+MD5sum: 6bca06f277b1c61fad448a8d5602c9f2
+Description: Paket Contoh Buat Xenta OS Tim Pemaketan.
+ Paketku merupakan sebuah paket contoh digunakan
+ sebagai Pustaka Tim Pemaketan dari Xenta OS.
+ Ini Merupakan Paket Utama Sebagai Contoh.
+
+Package: paketku-dep
+Source: paketku
+Version: 1.3.5
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 11
+Homepage: https://github.com/xentaos/paketku
+Priority: optional
+Section: utils
+Filename: pool/main/p/paketku/paketku-dep_1.3.5_all.deb
+Size: 2274
+SHA256: edb76dc24ef47cdf6bacfca5a5cfaeddccc8c4fcc189ac63f19fa6917417afb3
+SHA1: 84374e953683707523d5b15917364b6ae74366e8
+MD5sum: 889f16ba30e5a471bc36f06bd2b4b227
+Description: Paket Contoh Buat Xenta OS Tim Pemaketan.
+ Paketku merupakan sebuah paket contoh digunakan
+ sebagai Pustaka Tim Pemaketan dari Xenta OS.
+ Ini Merupakan Paket Dependency dari Paket Paketku.
+
+Package: xenta-welcome-screen
+Version: 1.3.1
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 99
+Depends: xenta-x-icons, xenta-icons
+Homepage: https://github.com/xentaos/xenta-welcome-screen
+Priority: optional
+Section: admins
+Filename: pool/main/x/xenta-welcome-screen/xenta-welcome-screen_1.3.1_all.deb
+Size: 71518
+SHA256: 73d049ea053b205b102456764cff38434c0954b457396ae1e6e516a5cdd02747
+SHA1: b762df2557f5ff2f121150bceeda80aed479204e
+MD5sum: 1a80744f8947479351a80de3d42b4804
+Description: Paket Bawaan Sambutan Desktop Xenta OS.
+ Bawaan Sambutan Desktop Xenta OS semua edisi.
+
+Package: xenta-x-theme
+Version: 1.3.3
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 1523
+Homepage: https://github.com/xentaos/xenta-x-theme
+Priority: optional
+Section: gnome
+Filename: pool/main/x/xenta-x-theme/xenta-x-theme_1.3.3_all.deb
+Size: 265164
+SHA256: eb7b1b511de349e1d71dea7a3a0f67eab6ea471bf34c3b64b62a783a2a15d214
+SHA1: 93b90061e79fc5eecd7ffc4662bd15eeba883508
+MD5sum: 80de0e9447f6b237041b4780e7663f23
+Description: Paket Bawaan Theme Xenta X untuk Xenta OS.
+ Paket secara bawaan berupa GTK, Windows Sistem dan xfwm Theme.
+
+Package: xentascreenfetch
+Version: 3.7.0
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 238
+Homepage: https://github.com/xentaos/xentascreenfetch
+Priority: optional
+Section: utils
+Filename: pool/main/x/xentascreenfetch/xentascreenfetch_3.7.0_all.deb
+Size: 97066
+SHA256: c1d38b5ace46f95ee05194f73fd1b9aec58e67559ca2d999434f401c8a43fcfa
+SHA1: 586bb0ecb09d7418aca25f9c9efa93b38b9155eb
+MD5sum: 85cf7232a54f6f1866f2dd04a316acc9
+Description: Paket Screeshot CLI Untuk Xenta OS.
+ Frok dari screenfetch dan di patch ditambahkan Logo
+ Xenta OS.
+
+Package: xentasystem
+Version: 8.3.4
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 93
+Depends: python3 (>= 3.3), perl, apt, aptitude, gist, zenity, dconf-gsettings-backend | gsettings-backend
+Homepage: https://github.com/xentaos/xentasystem
+Priority: optional
+Section: admin
+Filename: pool/main/x/xentasystem/xentasystem_8.3.4_all.deb
+Size: 17904
+SHA256: caadd33aefb3c6ece73bfe4292be9cb5c443908b23e2b9ad76f54d14bc9d9b63
+SHA1: 16d7a67856f9639bd28949fbd3be1a5785a0a440
+MD5sum: 252a03e7a5258dd6ac2dc051c8ac3751
+Description: Paket Base Sistem Xenta OS berisi init sistemd.
+ Digunakan oleh desktop dan alat Xenta OS lainnya untuk dikumpul
+ informasi dan proses tugas sistem yang umum.
+

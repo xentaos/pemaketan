@@ -1,8 +1,8 @@
 # No Index Project Repository
 #-----------------------------------------------
-repository/pool
-repository/db
-repository/dists
+#repository/pool
+#repository/db
+#repository/dists
 # repository/conf
 # repository/repoclean
 # repository/repoindex

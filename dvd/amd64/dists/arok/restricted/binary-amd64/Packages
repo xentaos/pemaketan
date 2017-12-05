@@ -1,0 +1,25 @@
+Package: intel-microcode
+Version: 3.20151106.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Installed-Size: 571
+Depends: iucode-tool (>= 1.0)
+Recommends: initramfs-tools (>= 0.113~)
+Conflicts: microcode.ctl (<< 0.18~0)
+Homepage: http://feeds.downloadcenter.intel.com/rss/?p=483&lang=eng
+Priority: standard
+Section: non-free/admin
+Filename: pool/restricted/i/intel-microcode/intel-microcode_3.20151106.1_amd64.deb
+Size: 470686
+SHA256: f47c96611b57d586c352d0e987c4073d9891b3b1085f3237bd1abc05ac0fdcb5
+SHA1: cf7369263421a59ffae98b1632511ced63b1dee4
+MD5sum: 51dfa247ddcaefcfdf9ae0951f16f85e
+Description: Processor microcode firmware for Intel CPUs
+ This package contains updated system processor microcode for
+ Intel i686 and Intel X86-64 processors.  Intel releases microcode
+ updates to correct processor behavior as documented in the
+ respective processor specification updates.
+ .
+ For AMD processors, please refer to the amd64-microcode package.
+
