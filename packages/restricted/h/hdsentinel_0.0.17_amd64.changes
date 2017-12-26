@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 19 Dec 2017 21:10:06 +0700
+Source: hdsentinel
+Binary: hdsentinel hdsentinel64
+Architecture: source amd64
+Version: 0.0.17
+Distribution: arok
+Urgency: medium
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Changed-By: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Description:
+ hdsentinel - Paket HDSentinel monitoring dan menganalias Hardisk.
+ hdsentinel64 - Paket HDSentinel monitoring dan menganalias Hardisk.
+Changes:
+ hdsentinel (0.0.17) arok; urgency=medium
+ .
+   * Paketkan dari Upstream versi 0.17
+Checksums-Sha1:
+ 9a9b401ad4ae30a2a3c3f0a0741693255ac9a726 1015 hdsentinel_0.0.17.dsc
+ e3289a5633451ff5d90266c91fefd943ab9dd582 1302060 hdsentinel_0.0.17.tar.xz
+ f913c3c19cbbee78b7f49750c2df3cc1e8f581a0 958636 hdsentinel64_0.0.17_amd64.deb
+Checksums-Sha256:
+ 8903fd2a84dfabff8709f96bfb9864f39ca3cbfe691581bfa3c3e1f8f0494960 1015 hdsentinel_0.0.17.dsc
+ a36c015c33d8ea03dba6e239ac3df9df803ccf64dc185c266892be8fcabb8253 1302060 hdsentinel_0.0.17.tar.xz
+ 22fe7024920de906fe0b39efd82c7f727a2f47726efe84f4de1d020aa888daa8 958636 hdsentinel64_0.0.17_amd64.deb
+Files:
+ 09dffb19f3cd3b5ec2ad2dc1f89393bd 1015 non-free/misc optional hdsentinel_0.0.17.dsc
+ 245512616a9ec759aadb98b03ec62cef 1302060 non-free/misc optional hdsentinel_0.0.17.tar.xz
+ 89ea85fd7b90cad8d21c9ffc271cb833 958636 non-free/misc optional hdsentinel64_0.0.17_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iJwEAQECAAYFAlo5INgACgkQTtsL95Wc3dGZ2AQAodN3/43wy0+ivlpAeWMiqwnO
+b3fBUekyIo6bcQyOy13YpXdSVVEKJBbS0xkrZi/sLNE+/1BLz7GGPGkW8IhQFaPp
+VBE5SyQiW3V7m9ORL49mixSc0gxECyqCb0mY3ydgFjfIxOI+jUz7bDO51bvQELu5
+nlmsKqlOAR+nUmCLZBw=
+=4w98
+-----END PGP SIGNATURE-----

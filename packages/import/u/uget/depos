@@ -1,0 +1,2 @@
+sudo apt-get install cdbs libssl-dev libcurl4-openssl-dev libnotify-dev libappindicator3-dev libgstreamer1.0-dev
+

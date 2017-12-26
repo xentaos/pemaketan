@@ -1,0 +1,12 @@
+Package: uget
+Version: 2.0.10
+Architecture: amd64
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 1397
+Depends: libappindicator3-1 (>= 0.2.92), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libcurl3 (>= 7.16.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libssl1.0.0 (>= 1.0.0)
+Suggests: aria2
+Section: web
+Priority: optional
+Homepage: http://ugetdm.com/
+Description: Simple graphical download manager
+ uGet is a lightweight and full-featured Download Manager.

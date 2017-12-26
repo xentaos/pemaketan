@@ -1,11 +1,9 @@
-xenta-welcome-screen (1.3.1) arok; urgency=medium
+packages (1.3.0) arok; urgency=medium
 
   * Memperbaharui berkas debian/*
-
- -- Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>  Sat, 11 Nov 2017 00:33:23 +0700
-
-xenta-welcome-screen (1.3.0) arok; urgency=medium
-
-  * Memperbaharui berkas debian/control dan debian/copyright
+  * Memperbaharui
+    berkas debian/*
+  * Versi Locantan 
+    dari Paket <packages> <upstreamversion> = <release>
 
  -- Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>  Sat, 11 Nov 2017 00:33:23 +0700

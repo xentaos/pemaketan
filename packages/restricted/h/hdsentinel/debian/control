@@ -1,0 +1,21 @@
+Source: hdsentinel
+Section: non-free/misc
+Priority: optional
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: https://www.hdsentinel.com/
+
+Package: hdsentinel
+Architecture: i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Paket HDSentinel monitoring dan menganalias Hardisk.
+ Mengecek Kondisi Hardisk seperti Kesehatan Hardisk.
+
+Package: hdsentinel64
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Paket HDSentinel monitoring dan menganalias Hardisk.
+ Mengecek Kondisi Hardisk seperti Kesehatan Hardisk.
+
+

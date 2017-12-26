@@ -1,0 +1,34 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: hdsentinel
+Upstream-Contact: Janos Mathe <info@hdsentinel.com>
+Source: https://www.hdsentinel.com/hard_disk_sentinel_linux.php
+
+Files: amd64/*
+       i386/*
+Copyright: 2002-2017 Janos Mathe
+License: other
+ Hard Disk Sentinel Linux edition is FREE. 
+ You can freely distribute and use it to analyse hard disk status. 
+ However, if you like this tool and would like to keep it updated, 
+ please support further development by registering the Windows version of the software.
+ .
+ Visit "https://www.hdsentinel.com/".
+
+Files: debian/*
+Copyright: 2017 Dindin Hernawan
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

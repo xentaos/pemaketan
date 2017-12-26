@@ -15,6 +15,7 @@ packages/import/*/*/*.changes
 packages/import/*/*/*.deb
 packages/import/*/*/*.dsc
 packages/import/*/*/*.tar.xz
+packages/temp
 #packages/import/a/
 #packages/import/b/
 #packages/import/c/
@@ -67,6 +68,7 @@ packages/main/g//grub2-theme-xenta
 #packages/main/l/
 packages/main/l/libreoffice-style-xenta
 #packages/main/m/
+packages/main/m/mdm
 #packages/main/n/
 #packages/main/o/
 #packages/main/p/
@@ -87,6 +89,7 @@ packages/main/x/xenta-artwork
 packages/main/x/xenta-artwork-applications
 packages/main/x/xenta-artwork-cinnamon
 packages/main/x/xenta-artwork-common
+packages/main/x/xenta-backgrounds
 packages/main/x/xenta-backgrounds-arok
 packages/main/x/xenta-common
 packages/main/x/xenta-icons
@@ -160,7 +163,7 @@ packages/restricted/*/*/*.tar.xz
 #packages/restricted/d/
 #packages/restricted/e/
 #packages/restricted/f/
-#packages/restricted/g/
+packages/restricted/g/google-chrome-stable/*.deb
 #packages/restricted/g/
 #packages/restricted/g/
 #packages/restricted/h/

@@ -1,0 +1,1685 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Oleh, 2014
+# Serhij Dubyk <serhijdubyk@gmail.com>, 2011
+# Микола Ткач <znadobar@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: uGet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-18 16:04+0800\n"
+"PO-Revision-Date: 2016-11-09 16:16+0000\n"
+"Last-Translator: Michael Tunnell <michael@ugetdm.com>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/uget/uget/language/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../uget/UgetApp.c:103
+msgid "All Category"
+msgstr "Усі категорії"
+
+#. UGET_EVENT_NORMAL_CUSTOM
+#: ../uget/UgetEvent.c:58
+msgid "Connecting..."
+msgstr "З’єднання…"
+
+#. UGET_EVENT_NORMAL_CONNECT
+#: ../uget/UgetEvent.c:59
+msgid "Transmitting..."
+msgstr "Передача…"
+
+#. UGET_EVENT_NORMAL_TRANSMIT,
+#: ../uget/UgetEvent.c:60 ../ui-gtk/UgtkNodeView.c:917
+msgid "Retry"
+msgstr "Спроби"
+
+#. UGET_EVENT_NORMAL_RETRY,
+#: ../uget/UgetEvent.c:61
+msgid "Download completed"
+msgstr "Завантаження завершено"
+
+#. UGET_EVENT_NORMAL_COMPLETE,
+#: ../uget/UgetEvent.c:62 ../ui-gtk/UgtkNodeView.c:644
+msgid "Finished"
+msgstr "Завершено"
+
+#. UGET_EVENT_NORMAL_FINISH,
+#. resumable
+#: ../uget/UgetEvent.c:64
+msgid "Resumable"
+msgstr "Можливе продовження"
+
+#. UGET_EVENT_NORMAL_RESUMABLE,
+#: ../uget/UgetEvent.c:65 ../uget/UgetPluginAria2.c:287
+msgid "Not Resumable"
+msgstr "Продовження неможливе"
+
+#. UGET_EVENT_WARNING_CUSTOM
+#: ../uget/UgetEvent.c:73 ../uget/UgetPluginAria2.c:294
+msgid "Output file can't be renamed."
+msgstr "Вихідний файл неможливо перейменувати."
+
+#. UGET_EVENT_ERROR_CUSTOM
+#: ../uget/UgetEvent.c:81
+msgid "couldn't connect to host."
+msgstr "не вдається під'єднатися до вузла."
+
+#. UGET_EVENT_ERROR_CONNECT_FAILED
+#: ../uget/UgetEvent.c:82 ../uget/UgetPluginAria2.c:298
+msgid "Folder can't be created."
+msgstr "Неможливо створити теку."
+
+#. UGET_EVENT_ERROR_FOLDER_CREATE_FAILED
+#: ../uget/UgetEvent.c:83
+msgid "File can't be created (bad filename or file exist)."
+msgstr "Файл не може бути створений (невірна назва чи файл існує)."
+
+#. UGET_EVENT_ERROR_FILE_CREATE_FAILED
+#: ../uget/UgetEvent.c:84
+msgid "File can't be opened."
+msgstr "Не вдалося відкрити файл."
+
+#. UGET_EVENT_ERROR_FILE_OPEN_FAILED
+#: ../uget/UgetEvent.c:85
+msgid "Unable to create thread."
+msgstr "Не вдається створити потік."
+
+#. UGET_EVENT_ERROR_THREAD_CREATE_FAILED,
+#: ../uget/UgetEvent.c:86
+msgid "Incorrect source (different file size)."
+msgstr "Невірне джерело (різний розмір файлу)."
+
+#. UGET_EVENT_ERROR_INCORRECT_SOURCE,
+#: ../uget/UgetEvent.c:87
+msgid "Out of resource (disk full or run out of memory)."
+msgstr "Бракує ресурсів (диск заповнений чи брак пам’яті)."
+
+#. UGET_EVENT_ERROR_OUT_OF_RESOURCE
+#: ../uget/UgetEvent.c:88
+msgid "No output file."
+msgstr "Відсутній вихідний файл."
+
+#. UGET_EVENT_ERROR_NO_OUTPUT_FILE
+#: ../uget/UgetEvent.c:89
+msgid "No output setting."
+msgstr "Немає вихідних налаштувань."
+
+#. UGET_EVENT_ERROR_NO_OUTPUT_SETTING
+#: ../uget/UgetEvent.c:90
+msgid "Too many retries."
+msgstr "Забагато спроб."
+
+#. UGET_EVENT_ERROR_TOO_MANY_RETRIES
+#: ../uget/UgetEvent.c:91
+msgid "Unsupported scheme (protocol)."
+msgstr "Непідтримувана схема (протокол)."
+
+#. UGET_EVENT_ERROR_UNSUPPORTED_SCHEME
+#: ../uget/UgetEvent.c:92
+msgid "Unsupported file."
+msgstr "Непідтримуваний файл."
+
+#. UGET_EVENT_ERROR_UNSUPPORTED_FILE
+#: ../uget/UgetEvent.c:93
+msgid "post file not found."
+msgstr ""
+
+#. UGET_EVENT_ERROR_POST_FILE_NOT_FOUND
+#: ../uget/UgetEvent.c:94
+msgid "cookie file not found."
+msgstr ""
+
+#: ../uget/UgetMedia-youtube.c:275
+msgid "This video has been removed."
+msgstr ""
+
+#: ../uget/UgetMedia-youtube.c:288
+msgid "Error occurred during getting video info."
+msgstr ""
+
+#: ../uget/UgetMedia-youtube.c:534
+msgid "Error occurred during getting video web page."
+msgstr ""
+
+#: ../uget/UgetMedia-youtube.c:606
+msgid "No video_id found in URL of YouTube."
+msgstr ""
+
+#. 1 - 10
+#: ../uget/UgetPluginAria2.c:280
+msgid "aria2: an unknown error occurred."
+msgstr "aria2: сталася невідома помилка."
+
+#: ../uget/UgetPluginAria2.c:281
+msgid "aria2: time out occurred."
+msgstr "aria2: час сплив."
+
+#: ../uget/UgetPluginAria2.c:282
+msgid "aria2: resource was not found."
+msgstr "aria2: ресурс не знайдено."
+
+#: ../uget/UgetPluginAria2.c:283
+msgid ""
+"aria2 saw the specfied number of 'resource not found' error. See --max-file-"
+"not-found option"
+msgstr ""
+"aria2 отримала певне число помилок \"ресурс не знайдено\". Дивіться параметр "
+"--max-file-not-found"
+
+#: ../uget/UgetPluginAria2.c:284
+msgid "aria2: speed was too slow."
+msgstr "aria2: швидкість була замалою."
+
+#: ../uget/UgetPluginAria2.c:285
+msgid "aria2: network problem occurred."
+msgstr "aria2: виникла проблема з мережею."
+
+#: ../uget/UgetPluginAria2.c:286
+msgid "aria2: unfinished downloads."
+msgstr "aria2: незавершені завантаження."
+
+#. _("Not Resumable"),
+#: ../uget/UgetPluginAria2.c:288
+msgid "Out of resource"
+msgstr "Немає ресурсів"
+
+#. _(),
+#: ../uget/UgetPluginAria2.c:289
+msgid "aria2: piece length was different from one in .aria2 control file."
+msgstr ""
+"aria2: розмір блоку відрізнявся від вказаного у контрольному .aria2-файлі"
+
+#. 11 - 20
+#: ../uget/UgetPluginAria2.c:291
+msgid "aria2 was downloading same file."
+msgstr "aria2 був завантажений один і той самий файл."
+
+#: ../uget/UgetPluginAria2.c:292
+msgid "aria2 was downloading same info hash torrent."
+msgstr "aria2 був завантажений один і той самий хеш торенту."
+
+#: ../uget/UgetPluginAria2.c:293
+msgid "aria2: file already existed. See --allow-overwrite option."
+msgstr "aria2: файл вже існує. Дивіться параметр --allow-overwrite."
+
+#. _("Output file can't be renamed."),
+#: ../uget/UgetPluginAria2.c:295
+msgid "aria2: could not open existing file."
+msgstr "aria2: не вдалося відкрити існуючий файл."
+
+#: ../uget/UgetPluginAria2.c:296
+msgid "aria2: could not create new file or truncate existing file."
+msgstr "aria2: не вдалося створити новий файл або обнулити існуючий файл."
+
+#: ../uget/UgetPluginAria2.c:297
+msgid "aria2: file I/O error occurred."
+msgstr "aria2: сталася помилка читання/запису файлу."
+
+#. UGET_EVENT_ERROR_FOLDER_CREATE_FAILED
+#: ../uget/UgetPluginAria2.c:299
+msgid "aria2: name resolution failed."
+msgstr "aria2: дозвіл імен не вдався."
+
+#: ../uget/UgetPluginAria2.c:300
+msgid "aria2: could not parse Metalink document."
+msgstr "aria2: не вдалося проаналізувати Metalink-документ."
+
+#. 21 - 30
+#: ../uget/UgetPluginAria2.c:302
+msgid "aria2: FTP command failed."
+msgstr "aria2: FTP команда не вдалася."
+
+#: ../uget/UgetPluginAria2.c:303
+msgid "aria2: HTTP response header was bad or unexpected."
+msgstr "aria2: HTTP-заголовок відповіді був зіпсованим або неочікуваним."
+
+#: ../uget/UgetPluginAria2.c:304
+msgid "Too many redirections."
+msgstr "Забагато переспрямувань."
+
+#: ../uget/UgetPluginAria2.c:305
+msgid "aria2: HTTP authorization failed."
+msgstr "ria2: HTTP-авторизація не вдалася."
+
+#: ../uget/UgetPluginAria2.c:306
+msgid "aria2: could not parse bencoded file(usually .torrent file)."
+msgstr ""
+"aria2: не вдалося проаналізувати закодований файл (зазвичай файл \".torrent"
+"\")."
+
+#: ../uget/UgetPluginAria2.c:307
+msgid "aria2: torrent file was corrupted or missing information."
+msgstr "aria2: торент-файл пошкоджений або бракує інформації."
+
+#: ../uget/UgetPluginAria2.c:308
+msgid "aria2: Magnet URI was bad."
+msgstr "aria2: поганий Magnet URI."
+
+#: ../uget/UgetPluginAria2.c:309
+msgid ""
+"aria2: bad/unrecognized option was given or unexpected option argument was "
+"given."
+msgstr ""
+"aria2:  задано поганий/нерозпізнаний параметр або неочкуваний аргумент до "
+"нього"
+
+#: ../uget/UgetPluginAria2.c:310
+msgid "aria2: remote server was unable to handle the request."
+msgstr "aria2: віддалений сервер не зміг опрацювати запит."
+
+#: ../uget/UgetPluginAria2.c:311
+msgid "aria2: could not parse JSON-RPC request."
+msgstr "aria2: не вдалося проаналізувати JSON-RPC запит."
+
+#: ../uget/UgetPluginAria2.c:314
+msgid "No response. Is aria2 shutdown?"
+msgstr "Немає відповіді. Можливо aria2 відімкнена?"
+
+#. debug
+#: ../uget/UgetPluginAria2.c:641
+msgid "aria2: gid was removed."
+msgstr "aria2: gid був вилучений."
+
+#: ../uget/UgetPluginMedia.c:489
+msgid "Failed to get media link."
+msgstr ""
+
+#: ../uget/UgetPluginMedia.c:505
+msgid "No matched media."
+msgstr ""
+
+#: ../ui-gtk/UgtkAboutDialog.c:46
+msgid "Download Manager"
+msgstr "Керівник звантажень"
+
+#: ../ui-gtk/UgtkAboutDialog.c:48
+msgid "translator-credits"
+msgstr ""
+"Сергій Дубик <serhijdubyk@gmail.com>\n"
+"Макс Ляшук <m_lyashuk@ukr.net>\n"
+"Микола Ткач <Stuartlittle1970@gmail.com>"
+
+#: ../ui-gtk/UgtkAboutDialog.c:80
+msgid "uGet Founder: "
+msgstr "Засновник uGet: "
+
+#: ../ui-gtk/UgtkAboutDialog.c:81
+msgid "uGet Project Manager: "
+msgstr "Керівник проєкту uGet: "
+
+#. "↓"
+#. "↑"
+#: ../ui-gtk/UgtkApp-timeout.c:262 ../ui-gtk/UgtkTrayIcon.c:240
+msgid "tasks"
+msgstr "завдання"
+
+#: ../ui-gtk/UgtkApp-timeout.c:398
+msgid "New from Clipboard"
+msgstr "Нове звантаження з буферу обміну"
+
+#: ../ui-gtk/UgtkApp-timeout.c:400 ../ui-gtk/UgtkApp.c:916
+msgid "New Download"
+msgstr "Нове звантаження"
+
+#: ../ui-gtk/UgtkApp-timeout.c:424 ../ui-gtk/UgtkApp.c:1691
+#: ../ui-gtk/UgtkSettingDialog.c:119
+msgid "Clipboard"
+msgstr "Буфер обміну"
+
+#: ../ui-gtk/UgtkApp-timeout.c:426
+msgid "Command line"
+msgstr "Командний рядок"
+
+#: ../ui-gtk/UgtkApp-timeout.c:779
+msgid "Error Occurred"
+msgstr "Сталася помилка"
+
+#: ../ui-gtk/UgtkApp-timeout.c:780
+msgid "Error Occurred when downloading."
+msgstr "Сталася помилка при завантаженні."
+
+#: ../ui-gtk/UgtkApp-timeout.c:781
+msgid "Download Starting"
+msgstr "звантаження запущено"
+
+#: ../ui-gtk/UgtkApp-timeout.c:782
+msgid "Starting download queue."
+msgstr "запущена черга звантажень."
+
+#: ../ui-gtk/UgtkApp-timeout.c:783
+msgid "Download Completed"
+msgstr "Звантаження завершено"
+
+#: ../ui-gtk/UgtkApp-timeout.c:784
+msgid "All queuing downloads have been completed."
+msgstr "Усі файли з черги успішно звантажено."
+
+#. ----------------------------------------------------
+#. frame for Status (start mode)
+#: ../ui-gtk/UgtkApp-ui.c:193 ../ui-gtk/UgtkDownloadForm.c:224
+#: ../ui-gtk/UgtkNodeView.c:1040
+msgid "Status"
+msgstr "Статус"
+
+#. Summary Items - Category
+#. Download Columns - Category
+#: ../ui-gtk/UgtkApp-ui.c:195 ../ui-gtk/UgtkMenubar-ui.c:318
+#: ../ui-gtk/UgtkMenubar-ui.c:346 ../ui-gtk/UgtkMenubar-ui.c:431
+#: ../ui-gtk/UgtkNodeDialog.c:418 ../ui-gtk/UgtkNodeView.c:932
+#: ../ui-gtk/UgtkNodeView.c:1020 ../ui-gtk/UgtkSummary.c:131
+msgid "Category"
+msgstr "Категорія"
+
+#: ../ui-gtk/UgtkApp-ui.c:279
+msgid "Create new download"
+msgstr "Створити нове звантаження"
+
+#. New Download (accelerators)
+#. gtk_menu_shell_append ((GtkMenuShell*)menu, gtk_tearoff_menu_item_new() );
+#. New Download
+#: ../ui-gtk/UgtkApp-ui.c:289 ../ui-gtk/UgtkMenubar-ui.c:58
+#: ../ui-gtk/UgtkTrayIcon.c:59
+msgid "New _Download..."
+msgstr "Нове _звантаження…"
+
+#. New Category
+#: ../ui-gtk/UgtkApp-ui.c:300 ../ui-gtk/UgtkMenubar-ui.c:69
+msgid "New _Category..."
+msgstr "Нова _категорія…"
+
+#. New Clipboard batch
+#: ../ui-gtk/UgtkApp-ui.c:310 ../ui-gtk/UgtkTrayIcon.c:70
+msgid "New Clipboard _batch..."
+msgstr "Нове завантаження з _буферу обміну…"
+
+#. New URL Sequence batch
+#: ../ui-gtk/UgtkApp-ui.c:321
+msgid "New _URL Sequence batch..."
+msgstr "Новий перелік посилань"
+
+#. New Torrent
+#. separator
+#. gtk_menu_shell_append ((GtkMenuShell*)submenu, gtk_separator_menu_item_new() );
+#. New Torrent
+#: ../ui-gtk/UgtkApp-ui.c:335 ../ui-gtk/UgtkMenubar-ui.c:81
+#: ../ui-gtk/UgtkTrayIcon.c:83
+msgid "New Torrent..."
+msgstr "Новий торент..."
+
+#. New Metalink
+#: ../ui-gtk/UgtkApp-ui.c:342 ../ui-gtk/UgtkMenubar-ui.c:87
+#: ../ui-gtk/UgtkTrayIcon.c:90
+msgid "New Metalink..."
+msgstr "Нове метапосилання..."
+
+#: ../ui-gtk/UgtkApp-ui.c:356
+msgid "Save all settings"
+msgstr "Зберегти усі налаштування"
+
+#: ../ui-gtk/UgtkApp-ui.c:369
+msgid "Set selected download runnable"
+msgstr "Почати звантаження для вибраних записів"
+
+#: ../ui-gtk/UgtkApp-ui.c:379
+msgid "Set selected download to pause"
+msgstr "Призупинити вибрані звантаження"
+
+#: ../ui-gtk/UgtkApp-ui.c:389
+msgid "Set selected download properties"
+msgstr "Встановити ціхи вибраних звантажень"
+
+#: ../ui-gtk/UgtkApp-ui.c:402
+msgid "Move selected download up"
+msgstr "Перемістити обране звантаження вище"
+
+#: ../ui-gtk/UgtkApp-ui.c:412
+msgid "Move selected download down"
+msgstr "Перемістити обране звантаження нижче"
+
+#: ../ui-gtk/UgtkApp-ui.c:422
+msgid "Move selected download to top"
+msgstr "Перемістити обране звантаження до початку"
+
+#: ../ui-gtk/UgtkApp-ui.c:432
+msgid "Move selected download to bottom"
+msgstr "Перемістити обране звантаження у кінець"
+
+#: ../ui-gtk/UgtkApp.c:884
+msgid "New Category"
+msgstr "Нова категорія"
+
+#: ../ui-gtk/UgtkApp.c:895
+msgid "Copy - "
+msgstr "Копіювати -"
+
+#: ../ui-gtk/UgtkApp.c:1052
+msgid "Category Properties"
+msgstr "Властивості категорії"
+
+#: ../ui-gtk/UgtkApp.c:1066
+msgid "Download Properties"
+msgstr "Властивості звантаження"
+
+#: ../ui-gtk/UgtkApp.c:1308
+msgid "New Torrent"
+msgstr "Новий торент"
+
+#: ../ui-gtk/UgtkApp.c:1324
+msgid "New Metalink"
+msgstr "Нове метапосилання"
+
+#: ../ui-gtk/UgtkApp.c:1333
+msgid "Open Torrent file"
+msgstr "Відкрити torrent-файл"
+
+#: ../ui-gtk/UgtkApp.c:1336
+msgid "Torrent file (*.torrent)"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1349
+msgid "Open Metalink file"
+msgstr "Відкрити файл метапосилань"
+
+#: ../ui-gtk/UgtkApp.c:1389
+msgid "Failed to save category file."
+msgstr "Не вдалося зберегти файл категорії."
+
+#: ../ui-gtk/UgtkApp.c:1409
+msgid "Failed to load category file."
+msgstr "Не вдалося завантажити файл категорії."
+
+#: ../ui-gtk/UgtkApp.c:1420
+msgid "Save Category file"
+msgstr "Зберегти файл категорії"
+
+#: ../ui-gtk/UgtkApp.c:1438
+msgid "Open Category file"
+msgstr "Відкрити файл категорії"
+
+#: ../ui-gtk/UgtkApp.c:1441
+msgid "JSON file (*.json)"
+msgstr ""
+
+#. add link
+#: ../ui-gtk/UgtkApp.c:1497
+msgid "Link <A>"
+msgstr "Посилання <A>"
+
+#. add image
+#: ../ui-gtk/UgtkApp.c:1502
+msgid "Image <IMG>"
+msgstr "Зображення <IMG>"
+
+#: ../ui-gtk/UgtkApp.c:1547
+msgid "Text File"
+msgstr "Текстовий файл"
+
+#: ../ui-gtk/UgtkApp.c:1594
+msgid "Import URLs from HTML file"
+msgstr "Імпортувати URL-адреси з HTML-файлу"
+
+#: ../ui-gtk/UgtkApp.c:1597
+msgid "HTML file (*.htm, *.html)"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1609
+msgid "Import URLs from text file"
+msgstr "Імпортувати URL-адреси з текстового файлу"
+
+#: ../ui-gtk/UgtkApp.c:1612
+msgid "Plain text file"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1624
+msgid "Export URLs to text file"
+msgstr "Експорт URL-адрес у текстовий файл"
+
+#: ../ui-gtk/UgtkApp.c:1643
+msgid "URL Sequence batch"
+msgstr "Перелік посилань"
+
+#: ../ui-gtk/UgtkApp.c:1670
+msgid "No URLs found in clipboard."
+msgstr "У буфері обміну не знайдено URL-адрес."
+
+#: ../ui-gtk/UgtkApp.c:1679
+msgid "All URLs had existed."
+msgstr "Усі URL-адреси вже існують."
+
+#: ../ui-gtk/UgtkApp.c:1684
+msgid "Clipboard batch"
+msgstr "З буферу обміну"
+
+#: ../ui-gtk/UgtkApp.c:1774
+msgid "New"
+msgstr "Нова"
+
+#: ../ui-gtk/UgtkApp.c:1815 ../ui-gtk/UgtkMenubar.c:460
+#: ../ui-gtk/UgtkMenubar.c:492 ../ui-gtk/UgtkNodeView.c:640
+msgid "Error"
+msgstr "Помилка"
+
+#: ../ui-gtk/UgtkApp.c:1823 ../ui-gtk/UgtkSummary.c:176
+msgid "Message"
+msgstr "Повідомлення"
+
+#: ../ui-gtk/UgtkApp.c:1939
+#, c-format
+msgid "Selected %d items"
+msgstr "Обрано записів: %d"
+
+#: ../ui-gtk/UgtkBanner.c:145 ../ui-gtk/UgtkBanner.c:165
+msgid "Attention uGetters:"
+msgstr "Користувачі UGet, зверніть увагу:"
+
+#: ../ui-gtk/UgtkBanner.c:148
+msgid ""
+"we are running a Donation Drive for uGet's Future Development, please click "
+msgstr ""
+"ми запустили Donation Drive для подальшої розробки uGet, будь ласка, клацніть"
+
+#: ../ui-gtk/UgtkBanner.c:151
+msgid "HERE"
+msgstr "ТУТ"
+
+#: ../ui-gtk/UgtkBanner.c:168
+msgid "please fill out this quick User Survey for uGet."
+msgstr "будь ласка, пройдіть швидке опитування користувачів uGet."
+
+#: ../ui-gtk/UgtkBanner.c:171
+msgid "click here to take survey"
+msgstr "натисніть тут, аби пройти опитування"
+
+#: ../ui-gtk/UgtkCategoryForm.c:62
+msgid "Category _name:"
+msgstr "Назва категорії:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_active), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:82
+msgid "Active _downloads:"
+msgstr "Активні з_вантаження:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_finished), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:92
+msgid "Capacity of Finished:"
+msgstr "Кількість завершених:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_recycled), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:102
+msgid "Capacity of Recycled:"
+msgstr "Кількість вилучених:"
+
+#. ------------------------------------------------------------------------
+#. URI Matching conditions
+#: ../ui-gtk/UgtkCategoryForm.c:111
+msgid "URI Matching conditions"
+msgstr "Умови розпізнавання URI"
+
+#: ../ui-gtk/UgtkCategoryForm.c:118
+msgid "Matched _Hosts:"
+msgstr "Розпізнавати _хости:"
+
+#: ../ui-gtk/UgtkCategoryForm.c:129
+msgid "Matched _Schemes:"
+msgstr "Розпізнавати _схеми:"
+
+#: ../ui-gtk/UgtkCategoryForm.c:140
+msgid "Matched _Types:"
+msgstr "Розпізнавати _типи:"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:64
+msgid "Really Quit?"
+msgstr "Справді вийти?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:65
+msgid "Are you sure you want to quit?"
+msgstr "Ви справді бажаєте вийти?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:69
+msgid "Really delete files?"
+msgstr "Справді волієте вилучити файли?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:70
+msgid "Are you sure you want to delete files?"
+msgstr "Ви впевнені, що бажаєте вилучити файли?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:74
+msgid "Really delete category?"
+msgstr "Справді вилучити категорію?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:75
+msgid "Are you sure you want to delete category?"
+msgstr "Ви впевнені, що волієте вилучити категорію?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:109
+msgid "Don't ask me again"
+msgstr "Не питати знову"
+
+#. URL - label
+#: ../ui-gtk/UgtkDownloadForm.c:111 ../ui-gtk/UgtkSequence.c:235
+msgid "_URI:"
+msgstr "_URI:"
+
+#. Mirrors - label
+#: ../ui-gtk/UgtkDownloadForm.c:130
+msgid "Mirrors:"
+msgstr "Дзеркала:"
+
+#. File - label
+#: ../ui-gtk/UgtkDownloadForm.c:146 ../ui-gtk/UgtkProxyForm.c:393
+msgid "File:"
+msgstr "Файл:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:166 ../ui-gtk/UgtkDownloadForm.c:897
+msgid "Select Folder"
+msgstr "Виберіть теку"
+
+#. Folder - label
+#: ../ui-gtk/UgtkDownloadForm.c:174
+msgid "_Folder:"
+msgstr "_Тека:"
+
+#. Referrer - label
+#: ../ui-gtk/UgtkDownloadForm.c:189
+msgid "Referrer:"
+msgstr "Посилання на сторінку:"
+
+#. "Max Connections:" - title label
+#: ../ui-gtk/UgtkDownloadForm.c:212
+msgid "_Max Connections:"
+msgstr "_Максимальне число з’єднань:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:230 ../ui-gtk/UgtkMenubar-ui.c:574
+msgid "_Runnable"
+msgstr "_Запуск"
+
+#: ../ui-gtk/UgtkDownloadForm.c:232
+msgid "P_ause"
+msgstr "_Призупинення"
+
+#. ----------------------------------------------------
+#. frame for login
+#: ../ui-gtk/UgtkDownloadForm.c:238
+msgid "Login"
+msgstr "Вхід"
+
+#. User - label
+#. user label & entry
+#: ../ui-gtk/UgtkDownloadForm.c:252 ../ui-gtk/UgtkProxyForm.c:149
+msgid "User:"
+msgstr "Користувач:"
+
+#. Password - label
+#. password label & entry
+#: ../ui-gtk/UgtkDownloadForm.c:268 ../ui-gtk/UgtkProxyForm.c:160
+msgid "Password:"
+msgstr "Пароль:"
+
+#. label - cookie file
+#: ../ui-gtk/UgtkDownloadForm.c:293
+msgid "Cookie file:"
+msgstr "Файл-куки:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:310 ../ui-gtk/UgtkDownloadForm.c:953
+msgid "Select Cookie File"
+msgstr "Виберіть файл з куками"
+
+#. label - post file
+#: ../ui-gtk/UgtkDownloadForm.c:319
+msgid "Post file:"
+msgstr "Відвантажуваний файл:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:336 ../ui-gtk/UgtkDownloadForm.c:1009
+msgid "Select Post File"
+msgstr "Виберіть Post-файл"
+
+#. label - user agent
+#: ../ui-gtk/UgtkDownloadForm.c:346
+msgid "User Agent:"
+msgstr "Клієнт користувача:"
+
+#. Retry limit - label
+#: ../ui-gtk/UgtkDownloadForm.c:362
+msgid "Retry _limit:"
+msgstr "Межа кількости спроб:"
+
+#. counts - label
+#: ../ui-gtk/UgtkDownloadForm.c:377
+msgid "counts"
+msgstr "раз"
+
+#. Retry delay - label
+#: ../ui-gtk/UgtkDownloadForm.c:384
+msgid "Retry _delay:"
+msgstr "Затримка між спробами:"
+
+#. seconds - label
+#: ../ui-gtk/UgtkDownloadForm.c:399
+msgid "seconds"
+msgstr "секунд"
+
+#. label - Max upload speed
+#: ../ui-gtk/UgtkDownloadForm.c:406
+msgid "Max upload speed:"
+msgstr "Максимальна швидкість відвантаження:"
+
+#. label - "KiB/s"
+#: ../ui-gtk/UgtkDownloadForm.c:418 ../ui-gtk/UgtkDownloadForm.c:436
+#: ../ui-gtk/UgtkSettingForm.c:311 ../ui-gtk/UgtkSettingForm.c:323
+#: ../ui-gtk/UgtkSettingForm.c:612 ../ui-gtk/UgtkSettingForm.c:624
+msgid "KiB/s"
+msgstr "KiB/с"
+
+#. label - Max download speed
+#: ../ui-gtk/UgtkDownloadForm.c:424
+msgid "Max download speed:"
+msgstr "Максимальна швидкість завантаження:"
+
+#. Retrieve timestamp
+#: ../ui-gtk/UgtkDownloadForm.c:442
+msgid "Retrieve timestamp"
+msgstr "Отримувати часову мітку"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:51
+msgid "_File"
+msgstr "_Файл"
+
+#. Batch Downloads --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:94
+msgid "_Batch Downloads"
+msgstr "_Пакункове завантаження"
+
+#. Batch downloads - Clipboard batch
+#: ../ui-gtk/UgtkMenubar-ui.c:100
+msgid "_Clipboard batch..."
+msgstr "_З буферу обміну"
+
+#. Batch downloads - URL Sequence batch
+#: ../ui-gtk/UgtkMenubar-ui.c:110
+msgid "_URL Sequence batch..."
+msgstr "_Перелік посилань"
+
+#. Batch downloads - Text file import (.txt)
+#: ../ui-gtk/UgtkMenubar-ui.c:120
+msgid "_Text file import (.txt)..."
+msgstr "_Текстовий файл імпорту (.txt)..."
+
+#. Batch downloads - HTML file import (.html)
+#: ../ui-gtk/UgtkMenubar-ui.c:130
+msgid "_HTML file import (.html)..."
+msgstr "_HTML-файл імпорту (.html)..."
+
+#. Batch downloads - Export to Text file (.txt)
+#: ../ui-gtk/UgtkMenubar-ui.c:142
+msgid "_Export to Text file (.txt)..."
+msgstr "_Експортувати до текстового файлу (.txt)"
+
+#. Open Category
+#: ../ui-gtk/UgtkMenubar-ui.c:156
+msgid "_Open category..."
+msgstr "_Відкрити категорію..."
+
+#. Save Category
+#: ../ui-gtk/UgtkMenubar-ui.c:167
+msgid "_Save category as..."
+msgstr "_Зберегти категорію як..."
+
+#. Save All
+#: ../ui-gtk/UgtkMenubar-ui.c:178
+msgid "Save _all settings"
+msgstr "Зберегти _усі налаштування"
+
+#. Offline mode
+#: ../ui-gtk/UgtkMenubar-ui.c:192
+msgid "Offline Mode"
+msgstr "Режим офлайн"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:210
+msgid "_Edit"
+msgstr "_Редагування"
+
+#. menu.gtk_menu_shell_append((GtkMenuShell*)menu, gtk_tearoff_menu_item_new() );
+#. Settings shortcut
+#: ../ui-gtk/UgtkMenubar-ui.c:215 ../ui-gtk/UgtkTrayIcon.c:99
+msgid "Clipboard _Monitor"
+msgstr "Стежити за _буфером обміну"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:219 ../ui-gtk/UgtkTrayIcon.c:103
+msgid "Clipboard works quietly"
+msgstr "Буфер обміну у автоматичному режимі"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:223 ../ui-gtk/UgtkTrayIcon.c:107
+msgid "Command-line works quietly"
+msgstr "Командний рядок у автоматичному режимі"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:227 ../ui-gtk/UgtkTrayIcon.c:111
+msgid "Skip existing URI"
+msgstr "Пропускати існуючі URI"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:231 ../ui-gtk/UgtkSettingForm.c:223
+#: ../ui-gtk/UgtkTrayIcon.c:115
+msgid "Apply recent download settings"
+msgstr ""
+
+#. --- Completion Auto-Actions --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:238
+msgid "Completion _Auto-Actions"
+msgstr "_Дії після завершення"
+
+#. Completion Auto-Actions - Disable
+#: ../ui-gtk/UgtkMenubar-ui.c:244
+msgid "_Disable"
+msgstr "_Відімкнено"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:249
+msgid "Hibernate"
+msgstr "Гібернація"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:254
+msgid "Suspend"
+msgstr "Режим очікування"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:259
+msgid "Shutdown"
+msgstr "Завершення роботи"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:264
+msgid "Reboot"
+msgstr "Перезавантаження"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:269
+msgid "Custom"
+msgstr "Користувацьке"
+
+#. Completion Auto-Actions - Remember
+#: ../ui-gtk/UgtkMenubar-ui.c:275
+msgid "Remember setting"
+msgstr "Запам’ятати налаштування"
+
+#. Completion Auto-Actions - Help
+#: ../ui-gtk/UgtkMenubar-ui.c:279 ../ui-gtk/UgtkMenubar-ui.c:682
+msgid "_Help"
+msgstr "_Довідка"
+
+#. --- Completion Auto-Actions --- end ---
+#. menu_item = gtk_menu_item_new_with_mnemonic (_("_Settings..."));
+#. Settings
+#: ../ui-gtk/UgtkMenubar-ui.c:285 ../ui-gtk/UgtkTrayIcon.c:122
+msgid "_Settings..."
+msgstr "_Налаштування…"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:304
+msgid "_View"
+msgstr "_Перегляд"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:308
+msgid "_Toolbar"
+msgstr "_Панель знарядь"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:313
+msgid "Statusbar"
+msgstr "Рядок стану"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:323
+msgid "_Summary"
+msgstr "_Зведення"
+
+#. Summary Items --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:331
+msgid "Summary _Items"
+msgstr "Поля _зведення"
+
+#. Summary Items - Name
+#: ../ui-gtk/UgtkMenubar-ui.c:336
+msgid "_Name"
+msgstr "_Назва"
+
+#. Summary Items - Folder
+#: ../ui-gtk/UgtkMenubar-ui.c:341
+msgid "_Folder"
+msgstr "_Тека"
+
+#. Summary Items - Elapsed
+#. menu_item = gtk_check_menu_item_new_with_mnemonic (_("_Elapsed"));
+#. gtk_check_menu_item_set_active ((GtkCheckMenuItem*) menu_item, TRUE);
+#. gtk_menu_shell_append ((GtkMenuShell*) submenu, menu_item);
+#. menubar->view.summary_items.elapsed = menu_item;
+#. Summary Items - URL
+#. Download Columns - URL
+#: ../ui-gtk/UgtkMenubar-ui.c:356 ../ui-gtk/UgtkMenubar-ui.c:436
+msgid "_URL"
+msgstr "_URL"
+
+#. Summary Items - Message
+#: ../ui-gtk/UgtkMenubar-ui.c:361
+msgid "_Message"
+msgstr "_Повідомлення"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:376
+msgid "Download _Columns"
+msgstr "_Стовпці переліку звантажень"
+
+#. Download Columns - Complete
+#: ../ui-gtk/UgtkMenubar-ui.c:381
+msgid "_Complete"
+msgstr "_Завершено"
+
+#. Download Columns - Total
+#: ../ui-gtk/UgtkMenubar-ui.c:386
+msgid "_Size"
+msgstr "_Розмір"
+
+#. Download Columns - Percent (%)
+#: ../ui-gtk/UgtkMenubar-ui.c:391
+msgid "_Percent '%'"
+msgstr "Відсоток '%'"
+
+#. Download Columns - Elapsed
+#: ../ui-gtk/UgtkMenubar-ui.c:396
+msgid "_Elapsed"
+msgstr "_Пройшло часу"
+
+#. Download Columns - Left
+#: ../ui-gtk/UgtkMenubar-ui.c:401
+msgid "_Left"
+msgstr "_Залишилось часу"
+
+#. Download Columns - Speed
+#: ../ui-gtk/UgtkMenubar-ui.c:406 ../ui-gtk/UgtkNodeView.c:861
+msgid "Speed"
+msgstr "Швидкість"
+
+#. Download Columns - Up Speed
+#: ../ui-gtk/UgtkMenubar-ui.c:411 ../ui-gtk/UgtkNodeView.c:875
+msgid "Up Speed"
+msgstr "Швидкість завантаження"
+
+#. Download Columns - Uploaded
+#: ../ui-gtk/UgtkMenubar-ui.c:416 ../ui-gtk/UgtkNodeView.c:889
+msgid "Uploaded"
+msgstr "Відвантажено"
+
+#. Download Columns - Ratio
+#: ../ui-gtk/UgtkMenubar-ui.c:421 ../ui-gtk/UgtkNodeView.c:903
+msgid "Ratio"
+msgstr "Відношення"
+
+#. Download Columns - Retry
+#: ../ui-gtk/UgtkMenubar-ui.c:426
+msgid "_Retry"
+msgstr "_Cпроби"
+
+#. Download Columns - Added On
+#: ../ui-gtk/UgtkMenubar-ui.c:441 ../ui-gtk/UgtkNodeView.c:960
+msgid "Added On"
+msgstr "Додано в"
+
+#. Download Columns - Completed On
+#: ../ui-gtk/UgtkMenubar-ui.c:446 ../ui-gtk/UgtkNodeView.c:974
+msgid "Completed On"
+msgstr "Завершено в"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:461
+msgid "_Category"
+msgstr "_Категорія"
+
+#. New Category
+#: ../ui-gtk/UgtkMenubar-ui.c:466
+msgid "_New Category..."
+msgstr "_Створити категорію…"
+
+#. Delete Category
+#: ../ui-gtk/UgtkMenubar-ui.c:476
+msgid "_Delete Category"
+msgstr "Ви_лучити категорію"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:517
+msgid "_Download"
+msgstr "_Звантаження"
+
+#. menu_item = gtk_image_menu_item_new_from_stock (GTK_STOCK_DELETE, accel_group);
+#: ../ui-gtk/UgtkMenubar-ui.c:529
+msgid "_Delete Entry"
+msgstr "_Вилучити запис"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:540
+msgid "Delete Entry and _File"
+msgstr "Вилучити запис і _файл"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:555
+msgid "Open _Containing folder"
+msgstr "Відкрити _каталог, що містить"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:568
+msgid "Force Start"
+msgstr "Примусовий запуск"
+
+#. Move to --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:596
+msgid "_Move To"
+msgstr "_Перемістити до"
+
+#. Priority --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:645
+msgid "Priority"
+msgstr "Пріоритет"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:654
+msgid "_High"
+msgstr "_Високий"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:659
+msgid "_Normal"
+msgstr "_Звичайний"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:664
+msgid "_Low"
+msgstr "_Низький"
+
+#. Get Help Online
+#: ../ui-gtk/UgtkMenubar-ui.c:687
+msgid "Get Help Online"
+msgstr "Отримати допомогу онлайн"
+
+#. Documentation
+#: ../ui-gtk/UgtkMenubar-ui.c:698
+msgid "Documentation"
+msgstr "Документація"
+
+#. Support Forum
+#: ../ui-gtk/UgtkMenubar-ui.c:709
+msgid "Support Forum"
+msgstr "Форум підтримки"
+
+#. Submit Feedback
+#: ../ui-gtk/UgtkMenubar-ui.c:720
+msgid "Submit Feedback"
+msgstr "Відіслати відгук"
+
+#. Report a Bug
+#: ../ui-gtk/UgtkMenubar-ui.c:731
+msgid "Report a Bug"
+msgstr "Сповістити про недолік"
+
+#. Keyboard Shortcuts
+#: ../ui-gtk/UgtkMenubar-ui.c:742
+msgid "Keyboard Shortcuts"
+msgstr "Скорочення клавіш"
+
+#. Check for Updates
+#: ../ui-gtk/UgtkMenubar-ui.c:749
+msgid "Check for Updates"
+msgstr "Перевірити наявність оновлень"
+
+#: ../ui-gtk/UgtkMenubar.c:187
+msgid "Settings"
+msgstr "Налаштування"
+
+#: ../ui-gtk/UgtkMenubar.c:454
+#, c-format
+msgid "Can't launch default application for file '%s'."
+msgstr "Не вдається запустити типову проґраму для файлу „%s“"
+
+#: ../ui-gtk/UgtkMenubar.c:486
+#, c-format
+msgid "'%s' - This folder does not exist."
+msgstr "'%s' – цієї теки не існує."
+
+#. title
+#: ../ui-gtk/UgtkNodeDialog.c:219 ../ui-gtk/UgtkNodeDialog.c:223
+msgid "URI had existed"
+msgstr "URI вже існує"
+
+#: ../ui-gtk/UgtkNodeDialog.c:221
+msgid "This URI had existed, are you sure to continue?"
+msgstr "Цей URI вже існує, Ви впевнені, що бажаєте продовжити?"
+
+#: ../ui-gtk/UgtkNodeDialog.c:359
+msgid "General"
+msgstr "Загальні"
+
+#: ../ui-gtk/UgtkNodeDialog.c:361
+msgid "Advanced"
+msgstr "Додаткові"
+
+#: ../ui-gtk/UgtkNodeDialog.c:370
+msgid "Category settings"
+msgstr "Налаштування категорії"
+
+#: ../ui-gtk/UgtkNodeDialog.c:372
+msgid "Default for new download 1"
+msgstr "Типово для нового завантаження 1"
+
+#: ../ui-gtk/UgtkNodeDialog.c:374
+msgid "Default 2"
+msgstr "Типове 2"
+
+#: ../ui-gtk/UgtkNodeView.c:143 ../ui-gtk/UgtkNodeView.c:608
+#: ../ui-gtk/UgtkSummary.c:107
+msgid "unnamed"
+msgstr "неназване"
+
+#: ../ui-gtk/UgtkNodeView.c:641
+msgid "Paused"
+msgstr "Призупинено"
+
+#: ../ui-gtk/UgtkNodeView.c:642
+msgid "Uploading"
+msgstr "Вивантаження"
+
+#: ../ui-gtk/UgtkNodeView.c:643
+msgid "Completed"
+msgstr "Завершено"
+
+#: ../ui-gtk/UgtkNodeView.c:645
+msgid "Recycled"
+msgstr "Вилучені"
+
+#: ../ui-gtk/UgtkNodeView.c:646
+msgid "Queuing"
+msgstr "У черзі"
+
+#: ../ui-gtk/UgtkNodeView.c:647
+msgid "Active"
+msgstr "Активно"
+
+#: ../ui-gtk/UgtkNodeView.c:668
+msgid "All Status"
+msgstr "Усі стани"
+
+#: ../ui-gtk/UgtkNodeView.c:773 ../ui-gtk/UgtkSettingDialog.c:101
+#: ../ui-gtk/UgtkSummary.c:100
+msgid "Name"
+msgstr "Назва"
+
+#: ../ui-gtk/UgtkNodeView.c:790
+msgid "Complete"
+msgstr "Завершено"
+
+#: ../ui-gtk/UgtkNodeView.c:804
+msgid "Size"
+msgstr "Розмір"
+
+#: ../ui-gtk/UgtkNodeView.c:819
+msgid "%"
+msgstr "%"
+
+#: ../ui-gtk/UgtkNodeView.c:833
+msgid "Elapsed"
+msgstr "Минуло"
+
+#: ../ui-gtk/UgtkNodeView.c:847
+msgid "Left"
+msgstr "Залишилося"
+
+#: ../ui-gtk/UgtkNodeView.c:946 ../ui-gtk/UgtkSettingForm.c:584
+#: ../ui-gtk/UgtkSummary.c:143
+msgid "URI"
+msgstr "URI"
+
+#: ../ui-gtk/UgtkNodeView.c:997
+msgid "Quantity"
+msgstr "Кількість"
+
+#. proxy type label & combo box
+#: ../ui-gtk/UgtkProxyForm.c:64
+msgid "Proxy:"
+msgstr "Проксі:"
+
+#: ../ui-gtk/UgtkProxyForm.c:67
+msgid "Don't use"
+msgstr "Не використовувати"
+
+#: ../ui-gtk/UgtkProxyForm.c:69
+msgid "Default"
+msgstr "Типово"
+
+#. host label & entry
+#: ../ui-gtk/UgtkProxyForm.c:121
+msgid "Host:"
+msgstr "Сайт:"
+
+#. port label & entry
+#: ../ui-gtk/UgtkProxyForm.c:132
+msgid "Port:"
+msgstr "Порт:"
+
+#: ../ui-gtk/UgtkProxyForm.c:359
+msgid "Socket:"
+msgstr "Сокет:"
+
+#: ../ui-gtk/UgtkProxyForm.c:369
+msgid "Socket args:"
+msgstr "Аргументи сокета:"
+
+#: ../ui-gtk/UgtkProxyForm.c:379
+msgid "Element:"
+msgstr "Елемент:"
+
+#: ../ui-gtk/UgtkScheduleForm.c:57
+msgid "Mon"
+msgstr "Пон"
+
+#: ../ui-gtk/UgtkScheduleForm.c:58
+msgid "Tue"
+msgstr "Вів"
+
+#: ../ui-gtk/UgtkScheduleForm.c:59
+msgid "Wed"
+msgstr "Сер"
+
+#: ../ui-gtk/UgtkScheduleForm.c:60
+msgid "Thu"
+msgstr "Чет"
+
+#: ../ui-gtk/UgtkScheduleForm.c:61
+msgid "Fri"
+msgstr "П’ят"
+
+#: ../ui-gtk/UgtkScheduleForm.c:62
+msgid "Sat"
+msgstr "Суб"
+
+#: ../ui-gtk/UgtkScheduleForm.c:63
+msgid "Sun"
+msgstr "Нед"
+
+#: ../ui-gtk/UgtkScheduleForm.c:104
+msgid "_Enable Scheduler"
+msgstr "_Увімкнути планувальник"
+
+#. Turn off - label
+#: ../ui-gtk/UgtkScheduleForm.c:154
+msgid "Turn off"
+msgstr "Вимкнути"
+
+#. Turn off - help label
+#: ../ui-gtk/UgtkScheduleForm.c:159
+msgid "- stop all task"
+msgstr "- зупинити усі завдання"
+
+#. Normal - label
+#: ../ui-gtk/UgtkScheduleForm.c:169
+msgid "Normal"
+msgstr "Нормальний"
+
+#. Normal - help label
+#: ../ui-gtk/UgtkScheduleForm.c:174
+msgid "- run task normally"
+msgstr "- запустити завдання у звичайному режимі"
+
+#: ../ui-gtk/UgtkSelector.c:254
+msgid "All"
+msgstr "Усі"
+
+#: ../ui-gtk/UgtkSelector.c:259 ../ui-gtk/UgtkSequence.c:59
+msgid "None"
+msgstr "Жодного"
+
+#: ../ui-gtk/UgtkSelector.c:276
+msgid "Mark by filter"
+msgstr "позначення за фільтром"
+
+#: ../ui-gtk/UgtkSelector.c:294
+msgid "Mark URLs by host AND filename extension."
+msgstr "Відзначити URL-адреси за сайтом ТА розширенням файлу."
+
+#: ../ui-gtk/UgtkSelector.c:297
+msgid "This will reset all marks of URLs."
+msgstr "Це скине усі позначення URL-адрес."
+
+#. filter view -----------------------
+#. left side
+#: ../ui-gtk/UgtkSelector.c:305
+msgid "Host"
+msgstr "Сайт"
+
+#. right side (filename extension)
+#: ../ui-gtk/UgtkSelector.c:309
+msgid "File Ext."
+msgstr "Розширення файлу"
+
+#: ../ui-gtk/UgtkSelector.c:449
+msgid "URL"
+msgstr "URL"
+
+#: ../ui-gtk/UgtkSelector.c:781
+msgid "Base hypertext reference"
+msgstr "База гіпертекстових посилань"
+
+#. select all
+#: ../ui-gtk/UgtkSelector.c:797
+msgid "Mark _All"
+msgstr "Позначити _усі"
+
+#. select none
+#: ../ui-gtk/UgtkSelector.c:801
+msgid "Mark _None"
+msgstr "_Зняти позначки"
+
+#. select by filter
+#: ../ui-gtk/UgtkSelector.c:805
+msgid "_Mark by filter..."
+msgstr "Від_фільтрувати…"
+
+#: ../ui-gtk/UgtkSequence.c:61
+msgid "Num"
+msgstr ""
+
+#: ../ui-gtk/UgtkSequence.c:63
+msgid "Char"
+msgstr ""
+
+#. Label - To
+#: ../ui-gtk/UgtkSequence.c:89
+msgid "To:"
+msgstr "До:"
+
+#. label - digits
+#: ../ui-gtk/UgtkSequence.c:104
+msgid "digits:"
+msgstr "цифри:"
+
+#. label - case-sensitive
+#: ../ui-gtk/UgtkSequence.c:128
+msgid "case-sensitive"
+msgstr "з урахуванням регістру"
+
+#. e.g.
+#: ../ui-gtk/UgtkSequence.c:246
+msgid "e.g."
+msgstr "Наприклад:"
+
+#: ../ui-gtk/UgtkSequence.c:295
+#, fuzzy
+msgid "URI is not valid."
+msgstr "Невірна URL."
+
+#: ../ui-gtk/UgtkSequence.c:303
+#, fuzzy
+msgid "No wildcard(*) character in URI entry."
+msgstr "Не використовувати символ підстановки (*) в URL-адресі."
+
+#: ../ui-gtk/UgtkSequence.c:311
+msgid "No character in 'From' or 'To' entry."
+msgstr "Немає символів у входженні „Від“ чи „До“."
+
+#: ../ui-gtk/UgtkSequence.c:393
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: ../ui-gtk/UgtkSettingDialog.c:113
+msgid "User Interface"
+msgstr "Користувацький інтерфейс"
+
+#: ../ui-gtk/UgtkSettingDialog.c:125
+msgid "Bandwidth"
+msgstr "Пропускна здатність"
+
+#: ../ui-gtk/UgtkSettingDialog.c:131
+msgid "Scheduler"
+msgstr "Планувальник"
+
+#: ../ui-gtk/UgtkSettingDialog.c:137
+msgid "Plug-in"
+msgstr "Доповнення"
+
+#: ../ui-gtk/UgtkSettingDialog.c:143
+msgid "Media website"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingDialog.c:149
+msgid "Others"
+msgstr "Інше"
+
+#. Monitor button
+#: ../ui-gtk/UgtkSettingForm.c:61
+msgid "_Enable clipboard monitor"
+msgstr "_Увімкнути моніторинг буферу обміну"
+
+#. quiet mode
+#: ../ui-gtk/UgtkSettingForm.c:66
+msgid "_Quiet mode"
+msgstr "_У автоматичному режимі"
+
+#: ../ui-gtk/UgtkSettingForm.c:72 ../ui-gtk/UgtkSettingForm.c:488
+msgid "Default category index"
+msgstr "Індекс типової категорії"
+
+#: ../ui-gtk/UgtkSettingForm.c:84 ../ui-gtk/UgtkSettingForm.c:500
+msgid "Adding to Nth category if no matched category."
+msgstr "Долучення до N-ої категорії, якщо категорія не розпізнана."
+
+#. media website
+#: ../ui-gtk/UgtkSettingForm.c:90
+msgid "_Monitor URL of media website"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:105
+msgid "Monitor clipboard for specified file types:"
+msgstr "Стежити за ціма типами файлів у буфері обміну:"
+
+#: ../ui-gtk/UgtkSettingForm.c:125
+msgid "Separate the types with character '|'."
+msgstr "Відокремлювати типи символом „|“."
+
+#: ../ui-gtk/UgtkSettingForm.c:130
+msgid "You can use regular expressions here."
+msgstr "Тут Ви можете використовувати регулярні вирази."
+
+#: ../ui-gtk/UgtkSettingForm.c:176
+msgid "Confirmation"
+msgstr "Підтвердження"
+
+#. Confirmation check buttons
+#: ../ui-gtk/UgtkSettingForm.c:182
+msgid "Show confirmation dialog on exit"
+msgstr "Показувати вікно підтвердження при виході"
+
+#: ../ui-gtk/UgtkSettingForm.c:185
+msgid "Confirm when deleting files"
+msgstr "Питати схвалення при вилученні файлів"
+
+#: ../ui-gtk/UgtkSettingForm.c:191
+msgid "System Tray"
+msgstr "Системна таця"
+
+#. System Tray check buttons
+#: ../ui-gtk/UgtkSettingForm.c:197
+msgid "Always show tray icon"
+msgstr "Завжди показувати піктограму у треї"
+
+#: ../ui-gtk/UgtkSettingForm.c:200
+msgid "Minimize to tray on startup"
+msgstr "Ховати до системної таці при запуску"
+
+#: ../ui-gtk/UgtkSettingForm.c:203
+msgid "Close to tray on window close"
+msgstr "Приховувати у тацю при закриванні вікна"
+
+#: ../ui-gtk/UgtkSettingForm.c:207
+msgid "Use Ubuntu's App Indicator"
+msgstr "Використовувати індикатор застосунків Ubuntu"
+
+#: ../ui-gtk/UgtkSettingForm.c:214
+msgid "Enable offline mode on startup"
+msgstr "Задіяти автономний режим при запуску"
+
+#: ../ui-gtk/UgtkSettingForm.c:217
+msgid "Download starting notification"
+msgstr "Повідомлення при запуску звантаження"
+
+#: ../ui-gtk/UgtkSettingForm.c:220
+msgid "Sound when download is finished"
+msgstr "Звук при завершенні звантаження"
+
+#. widget = gtk_check_button_new_with_label (_("Skip existing URI from clipboard and command-line"));
+#. uiform->skip_existing = (GtkToggleButton*) widget;
+#. gtk_box_pack_start (vbox, widget, FALSE, FALSE, 1);
+#: ../ui-gtk/UgtkSettingForm.c:229
+msgid "Display large icon"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:295
+msgid "These will affect all plug-ins."
+msgstr "Вони впливають на усі втулки."
+
+#. Global speed limit
+#: ../ui-gtk/UgtkSettingForm.c:301
+msgid "Global speed limit"
+msgstr "Глобальні обмеження швидкості"
+
+#: ../ui-gtk/UgtkSettingForm.c:309 ../ui-gtk/UgtkSettingForm.c:610
+msgid "Max upload speed"
+msgstr "Максимальна швидкість вивантаження"
+
+#: ../ui-gtk/UgtkSettingForm.c:321 ../ui-gtk/UgtkSettingForm.c:622
+msgid "Max download speed"
+msgstr "Максимальна швидкість завантаження"
+
+#: ../ui-gtk/UgtkSettingForm.c:354
+msgid "Completion Auto-Actions"
+msgstr "Дії після завершення"
+
+#: ../ui-gtk/UgtkSettingForm.c:362
+msgid "Custom command:"
+msgstr "Користувацька команда:"
+
+#: ../ui-gtk/UgtkSettingForm.c:374
+msgid "Custom command if error occured:"
+msgstr "Користувацька команда при виникненні помилки:"
+
+#: ../ui-gtk/UgtkSettingForm.c:424
+msgid "_Autosave"
+msgstr "_Автозбереження"
+
+#. auto save interval label
+#: ../ui-gtk/UgtkSettingForm.c:435
+msgid "_Interval:"
+msgstr "_Інтервал:"
+
+#. auto save interval unit label
+#: ../ui-gtk/UgtkSettingForm.c:446
+msgid "minutes"
+msgstr "хвилини"
+
+#. Commandline Settings
+#: ../ui-gtk/UgtkSettingForm.c:475
+msgid "Commandline Settings"
+msgstr "Налаштування командного рядка"
+
+#. --quiet
+#: ../ui-gtk/UgtkSettingForm.c:482
+msgid "Use '--quiet' by default"
+msgstr "Типово використовувати '--quiet'"
+
+#: ../ui-gtk/UgtkSettingForm.c:554
+msgid "Plug-in matching order:"
+msgstr "Порядок розпізнавання втулок:"
+
+#: ../ui-gtk/UgtkSettingForm.c:577
+msgid "Aria2 plug-in options"
+msgstr "Параметри втулки aria2"
+
+#: ../ui-gtk/UgtkSettingForm.c:593
+msgid "RPC authorization secret token"
+msgstr "Секретний токен RPC-авторизації"
+
+#. ------------------------------------------------------------------------
+#. Speed Limits
+#: ../ui-gtk/UgtkSettingForm.c:602
+msgid "Global speed limit for aria2 only"
+msgstr "Глобальні обмеження швидкості лише для aria2"
+
+#. ------------------------------------------------------------------------
+#. aria2 works on local device
+#. launch
+#: ../ui-gtk/UgtkSettingForm.c:635
+msgid "_Launch aria2 on startup"
+msgstr "_Запускати aria2 під час завантаження"
+
+#. shutdown
+#: ../ui-gtk/UgtkSettingForm.c:641
+msgid "_Shutdown aria2 on exit"
+msgstr "_Закривати aria2 при виході"
+
+#. ------------------------------------------------------------------------
+#. Local options
+#: ../ui-gtk/UgtkSettingForm.c:647
+msgid "Launch aria2 on local device"
+msgstr "Запускати aria2 на локальному пристрої"
+
+#: ../ui-gtk/UgtkSettingForm.c:656
+msgid "Path"
+msgstr "Шлях"
+
+#: ../ui-gtk/UgtkSettingForm.c:674
+msgid "Arguments"
+msgstr "Аргументи"
+
+#. Arguments - hint
+#: ../ui-gtk/UgtkSettingForm.c:679
+msgid "You must restart uGet after modifying it."
+msgstr "Ви повинні перезавантажити uGet після внесення змін."
+
+#: ../ui-gtk/UgtkSettingForm.c:783
+msgid "Media matching mode:"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:801
+msgid "Match conditions"
+msgstr ""
+
+#. Quality
+#: ../ui-gtk/UgtkSettingForm.c:810
+msgid "Quality:"
+msgstr ""
+
+#. Type
+#: ../ui-gtk/UgtkSettingForm.c:830
+msgid "Type:"
+msgstr ""
+
+#: ../ui-gtk/UgtkSummary.c:104
+msgid "File"
+msgstr "Файл"
+
+#: ../ui-gtk/UgtkSummary.c:119
+msgid "Folder"
+msgstr "Тека"
+
+#: ../ui-gtk/UgtkSummary.c:262
+msgid "Item"
+msgstr "Запис"
+
+#: ../ui-gtk/UgtkSummary.c:267
+msgid "Value"
+msgstr "Значення"
+
+#. Copy All
+#: ../ui-gtk/UgtkSummary.c:299
+msgid "Copy _All"
+msgstr "Копіювати _усі"
+
+#. Show window
+#: ../ui-gtk/UgtkTrayIcon.c:141
+msgid "Show window"
+msgstr "Показати вікно"
+
+#. Offline mode
+#: ../ui-gtk/UgtkTrayIcon.c:147
+msgid "_Offline Mode"
+msgstr "_Автономний режим"
+
+#~ msgid "_From:"
+#~ msgstr "_Від:"
+
+#~ msgid "F_rom:"
+#~ msgstr "_Від:"

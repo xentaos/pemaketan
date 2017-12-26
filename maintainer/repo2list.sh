@@ -15,4 +15,4 @@
 figlet repo2list
 repository=/home/$(whoami)/xentaos/pemaketan/repository
 cd $repository
-reprepro list arok > packages.list
+reprepro list arok > ../database/PACKAGES.list

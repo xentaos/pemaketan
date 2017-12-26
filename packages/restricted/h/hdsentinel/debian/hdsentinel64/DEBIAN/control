@@ -1,0 +1,12 @@
+Package: hdsentinel64
+Source: hdsentinel
+Version: 0.0.17
+Architecture: amd64
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 2754
+Depends: libc6 (>= 2.2.5)
+Section: non-free/misc
+Priority: optional
+Homepage: https://www.hdsentinel.com/
+Description: Paket HDSentinel monitoring dan menganalias Hardisk.
+ Mengecek Kondisi Hardisk seperti Kesehatan Hardisk.

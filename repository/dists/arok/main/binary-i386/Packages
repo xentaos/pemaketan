@@ -1,3 +1,28 @@
+Package: base-files
+Version: 99.1.3
+Architecture: all
+Essential: yes
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 311
+Pre-Depends: awk
+Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/main/b/base-files/base-files_99.1.3_all.deb
+Size: 87348
+SHA256: 0462ba0fa195bae8c62e203f0781e4a1b49c81b7cf62b31bd8d9a7ac806ce222
+SHA1: 7b4533a9a261c9a827c3bbb82579ca7470205845
+MD5sum: 1e7add360a0d174e4e66d09c86e21e60
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
 Package: grub2-theme-xenta
 Version: 1.3.2
 Architecture: all
@@ -18,20 +43,20 @@ Description: Paket Grub2 theme untuk Xenta OS.
 
 Package: oem-config
 Source: ubiquity
-Version: 2.21.63+linuxmint6
+Version: 3.21.63
 Architecture: all
-Maintainer: Linux Mint Installer Team <ubuntu-installer@lists.ubuntu.com>
-Installed-Size: 221
-Depends: debconf (>= 0.5) | debconf-2.0, lsb-base (>= 4.1+Debian11ubuntu7), ubiquity (= 2.21.63+linuxmint6), oem-config-frontend-2.21.63+linuxmint6, procps
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 217
+Depends: debconf (>= 0.5) | debconf-2.0, ubiquity (= 3.21.63), oem-config-frontend-3.21.63, procps
 Conflicts: oem-config-keyboard, oem-config-locale, oem-config-timezone
 Replaces: oem-config-gtk (<< 1.54.13), oem-config-kde (<< 1.54.13), oem-config-keyboard, oem-config-locale, oem-config-timezone
 Priority: optional
 Section: admin
-Filename: pool/main/u/ubiquity/oem-config_2.21.63+linuxmint6_all.deb
-Size: 187786
-SHA256: 40a6936ab647abc2886e0ae527de2c6892d588892703b4992fac4dc4911dcad8
-SHA1: 605601df6dc6c2bba79a0fddfade08277190dceb
-MD5sum: bc8d657d3c25a3c5c500876f3212fe5b
+Filename: pool/main/u/ubiquity/oem-config_3.21.63_all.deb
+Size: 179500
+SHA256: 85322c95b04aa3be0fc791b45b1f6f43f40fc5b10f3210e8344ab4a06df873e2
+SHA1: 042bff82cd49f9bbc3c956371db3287ddbefc501
+MD5sum: 2b07e061d5455b1f0a4dae06e6723883
 Description: Perform end-user configuration after initial OEM installation
  The oem-config script re-asks a number of questions that are normally asked
  during installation, and reconfigures the system accordingly. This allows a
@@ -39,22 +64,47 @@ Description: Perform end-user configuration after initial OEM installation
  machines, and ship it to end users, while still allowing end users to set
  up their own username and password, language, timezone, and so on.
 
-Package: oem-config-gtk
+Package: oem-config-debconf
 Source: ubiquity
-Version: 2.21.63+linuxmint6
+Version: 3.21.63
 Architecture: all
-Maintainer: Linux Mint Installer Team <ubuntu-installer@lists.ubuntu.com>
-Installed-Size: 188
-Depends: oem-config (= 2.21.63+linuxmint6), ubiquity-frontend-gtk (= 2.21.63+linuxmint6), python3-aptdaemon.gtk3widgets, aptdaemon
-Replaces: oem-config (<< 1.0)
-Provides: oem-config-frontend-2.21.63+linuxmint6
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 177
+Depends: oem-config (= 3.21.63), ubiquity-frontend-debconf (= 3.21.63)
+Provides: oem-config-frontend-3.21.63
 Priority: optional
 Section: admin
-Filename: pool/main/u/ubiquity/oem-config-gtk_2.21.63+linuxmint6_all.deb
-Size: 181682
-SHA256: a05ab61fc5bb7f0842d14d33d4794fd886c71a64e084dd77fc9f62a47dcb916d
-SHA1: 105610e54564beac2bf4246a3fe1f1943336c1b0
-MD5sum: 1d9b30b607fd096c84f1a1a2797580b8
+Filename: pool/main/u/ubiquity/oem-config-debconf_3.21.63_all.deb
+Size: 172190
+SHA256: 41ecf0cec0f5e663243a85a3b11694983ce82067c9fca95e3fe760c10e045f58
+SHA1: 03a3e2407386e5b3a36b7be7ebc1dae1e95f83a0
+MD5sum: 4f1f9d7508a9330cda2a6bd26de31e80
+Description: debconf frontend for end-user post-OEM-install configuration
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+ .
+ This is a frontend to oem-config that simply arranges for questions to be
+ asked using the normal debconf frontend.
+
+Package: oem-config-gtk
+Source: ubiquity
+Version: 3.21.63
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 188
+Depends: oem-config (= 3.21.63), ubiquity-frontend-gtk (= 3.21.63), python3-aptdaemon.gtk3widgets, aptdaemon
+Replaces: oem-config (<< 1.0)
+Provides: oem-config-frontend-3.21.63
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/oem-config-gtk_3.21.63_all.deb
+Size: 175566
+SHA256: 7592c0e8749b9ece79c1757e8f72d87ee1be31c55934505db759b4464c4f3baf
+SHA1: 5efe8595213b0542cbd32f9d0bfdf413e2f30e61
+MD5sum: 8e9c27aa6f73e9bd245489b89e953255
 Description: GTK+ frontend for end-user post-OEM-install configuration
  The oem-config script re-asks a number of questions that are normally asked
  during installation, and reconfigures the system accordingly. This allows a
@@ -63,6 +113,49 @@ Description: GTK+ frontend for end-user post-OEM-install configuration
  up their own username and password, language, timezone, and so on.
  .
  This is a GTK+ frontend to oem-config.
+
+Package: oem-config-kde
+Source: ubiquity
+Version: 3.21.63
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 182
+Depends: oem-config (= 3.21.63), ubiquity-frontend-kde (= 3.21.63)
+Replaces: oem-config (<< 1.0)
+Provides: oem-config-frontend-3.21.63
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/oem-config-kde_3.21.63_all.deb
+Size: 174362
+SHA256: 5c692277c4ec1bddeb349f2c747ac71b1d126b2956410bd2a8f3845ed780b426
+SHA1: bccce4af43057671f3931247b6e523d7e49459a4
+MD5sum: 5aaf3d3101fd8cb45bed21b8962d6b09
+Description: KDE frontend for end-user post-OEM-install configuration
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+ .
+ This is a KDE frontend to oem-config.
+
+Package: oem-config-remaster
+Source: ubiquity
+Version: 3.21.63
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 178
+Depends: genisoimage, gnupg, apt-utils
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/oem-config-remaster_3.21.63_all.deb
+Size: 172946
+SHA256: a02a3b95ad2cfbfedf690c9f1da7e6ad383913f301b27025e9f98b596e32e347
+SHA1: 86c6c28ca8ece035625298ae5fb5ae3ddd28b530
+MD5sum: 592fc6d2853afb2636e47b82fe670339
+Description: Remaster a CD with additional oem-config functionality
+ This script remasters a CD with additional packages and optional oem-config
+ preseed data.
 
 Package: paketku
 Version: 1.3.5
@@ -101,6 +194,79 @@ Description: Paket Contoh Buat Xenta OS Tim Pemaketan.
  Paketku merupakan sebuah paket contoh digunakan
  sebagai Pustaka Tim Pemaketan dari Xenta OS.
  Ini Merupakan Paket Dependency dari Paket Paketku.
+
+Package: ubiquity-frontend-kde
+Source: ubiquity
+Version: 3.21.63
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 550
+Depends: python3:any (>= 3.3.2-2~), ubiquity (= 3.21.63), python3-pyqt4, kde-window-manager | kwin, xauth, python3-dbus, python3-dbus.mainloop.qt
+Provides: ubiquity-frontend-3.21.63
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/ubiquity-frontend-kde_3.21.63_all.deb
+Size: 237790
+SHA256: 4ab2834d69b9a8ab0459dab80905ffe20811f3438c1c2ffa4a4fb27b5c3bb4ae
+SHA1: 6145a26ac77a2957f7da6c931fa71268949bcb80
+MD5sum: dd8511e1768b50e50027cd0b06dbad0f
+Description: KDE frontend for Ubiquity live installer
+ This package provides a KDE-based user interface frontend for the Ubiquity
+ live CD installer.
+
+Package: ubiquity-ubuntu-artwork
+Source: ubiquity
+Version: 3.21.63
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 765
+Conflicts: espresso-ubuntu-artwork, espresso-ubuntu-doc, ubiquity-ubuntu-doc, ubuntu-express-ubuntu-artwork, ubuntu-express-ubuntu-doc
+Replaces: espresso-ubuntu-artwork, espresso-ubuntu-doc, ubiquity (<< 1.13.0), ubiquity-ubuntu-doc, ubuntu-express-ubuntu-artwork, ubuntu-express-ubuntu-doc
+Provides: ubiquity-artwork-3.21.63
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/ubiquity-ubuntu-artwork_3.21.63_all.deb
+Size: 692992
+SHA256: 4c353a76cc2b66f9edbc09f51ae4ce1d2225c62225ba05b378b85ef7732699f6
+SHA1: bd8b4e452a656c82cd656562e9d1fc2c17fb7390
+MD5sum: f99b838e68999fb656e16e97771f0564
+Description: Xenta OS artwork for Ubiquity live installer
+ This package provides Xenta OS-themed user interface artwork, help files, and
+ user interface text for the Ubiquity live CD installer.
+
+Package: xenta-backgrounds
+Version: 1.3.0
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 120
+Homepage: https://github.com/xentaos/xenta-backgrounds
+Priority: optional
+Section: admin
+Filename: pool/main/x/xenta-backgrounds/xenta-backgrounds_1.3.0_all.deb
+Size: 109882
+SHA256: 5a78031642a777cc436b43af92da57f4e1e8a7c2254520b03b7dca8cf253e48b
+SHA1: c8889831fae13efeb85a62cfbb31f02eade5be40
+MD5sum: 6625aac6475fe6f27d2028109fc854f5
+Description: Paket Wallpaper Default Xenta OS.
+ Wallpaper Desktop Bawaan untuk Xenta OS Semua Edisi.
+
+Package: xenta-base-common
+Version: 1.3.1
+Architecture: all
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Installed-Size: 19
+Depends: xentasystem
+Homepage: https://github.com/xentaos/xenta-base-common
+Priority: optional
+Section: admin
+Filename: pool/main/x/xenta-base-common/xenta-base-common_1.3.1_all.deb
+Size: 2268
+SHA256: 796e14e10f460c08698aaee6e3661806b72b99e4fff29c293b3668cc56b0c9ba
+SHA1: 9f9b9dd17532974430b704052e1d00cdc0b0981e
+MD5sum: ec3107ded083a14964249baf82eb3d85
+Description: Paket Base Xenta OS pasangan casper.
+ Paket Base Sistem OPerasi dan Konfigurasi
+ Untuk Live Sistem Xenta OS Preistalled.
 
 Package: xenta-welcome-screen
 Version: 1.3.1

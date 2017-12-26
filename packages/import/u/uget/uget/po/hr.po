@@ -1,0 +1,1677 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# gogo <trebelnik2@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: uGet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-18 16:04+0800\n"
+"PO-Revision-Date: 2016-11-09 16:16+0000\n"
+"Last-Translator: Michael Tunnell <michael@ugetdm.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/uget/uget/language/hr/)\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../uget/UgetApp.c:103
+msgid "All Category"
+msgstr "Sve kategorije"
+
+#. UGET_EVENT_NORMAL_CUSTOM
+#: ../uget/UgetEvent.c:58
+msgid "Connecting..."
+msgstr "Povezivanje..."
+
+#. UGET_EVENT_NORMAL_CONNECT
+#: ../uget/UgetEvent.c:59
+msgid "Transmitting..."
+msgstr "Prenošenje..."
+
+#. UGET_EVENT_NORMAL_TRANSMIT,
+#: ../uget/UgetEvent.c:60 ../ui-gtk/UgtkNodeView.c:917
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+#. UGET_EVENT_NORMAL_RETRY,
+#: ../uget/UgetEvent.c:61
+msgid "Download completed"
+msgstr "Preuzimanje završeno"
+
+#. UGET_EVENT_NORMAL_COMPLETE,
+#: ../uget/UgetEvent.c:62 ../ui-gtk/UgtkNodeView.c:644
+msgid "Finished"
+msgstr "Završeno"
+
+#. UGET_EVENT_NORMAL_FINISH,
+#. resumable
+#: ../uget/UgetEvent.c:64
+msgid "Resumable"
+msgstr ""
+
+#. UGET_EVENT_NORMAL_RESUMABLE,
+#: ../uget/UgetEvent.c:65 ../uget/UgetPluginAria2.c:287
+msgid "Not Resumable"
+msgstr ""
+
+#. UGET_EVENT_WARNING_CUSTOM
+#: ../uget/UgetEvent.c:73 ../uget/UgetPluginAria2.c:294
+msgid "Output file can't be renamed."
+msgstr "Izlazna datoteka ne može biti preimenovana."
+
+#. UGET_EVENT_ERROR_CUSTOM
+#: ../uget/UgetEvent.c:81
+msgid "couldn't connect to host."
+msgstr "Nemoguće povezivanje s računalom."
+
+#. UGET_EVENT_ERROR_CONNECT_FAILED
+#: ../uget/UgetEvent.c:82 ../uget/UgetPluginAria2.c:298
+msgid "Folder can't be created."
+msgstr "Mapa ne može biti stvorena"
+
+#. UGET_EVENT_ERROR_FOLDER_CREATE_FAILED
+#: ../uget/UgetEvent.c:83
+msgid "File can't be created (bad filename or file exist)."
+msgstr ""
+"Datoteka ne može bit stvorena (pogrešan naziv datoteke ili datoteka ne "
+"postoji)."
+
+#. UGET_EVENT_ERROR_FILE_CREATE_FAILED
+#: ../uget/UgetEvent.c:84
+msgid "File can't be opened."
+msgstr "Datoteka se ne može otvoriti"
+
+#. UGET_EVENT_ERROR_FILE_OPEN_FAILED
+#: ../uget/UgetEvent.c:85
+msgid "Unable to create thread."
+msgstr ""
+
+#. UGET_EVENT_ERROR_THREAD_CREATE_FAILED,
+#: ../uget/UgetEvent.c:86
+msgid "Incorrect source (different file size)."
+msgstr "Neispravan izvor (drugačija veličina datoteke)."
+
+#. UGET_EVENT_ERROR_INCORRECT_SOURCE,
+#: ../uget/UgetEvent.c:87
+msgid "Out of resource (disk full or run out of memory)."
+msgstr ""
+"Premalo resursa (nema slobodnog prostora na disku ili nema dovoljno "
+"memorije)."
+
+#. UGET_EVENT_ERROR_OUT_OF_RESOURCE
+#: ../uget/UgetEvent.c:88
+msgid "No output file."
+msgstr "Nema izlazne datoteke."
+
+#. UGET_EVENT_ERROR_NO_OUTPUT_FILE
+#: ../uget/UgetEvent.c:89
+msgid "No output setting."
+msgstr "Nema izlazne postavke."
+
+#. UGET_EVENT_ERROR_NO_OUTPUT_SETTING
+#: ../uget/UgetEvent.c:90
+msgid "Too many retries."
+msgstr "Previše ponovnih pokušaja"
+
+#. UGET_EVENT_ERROR_TOO_MANY_RETRIES
+#: ../uget/UgetEvent.c:91
+msgid "Unsupported scheme (protocol)."
+msgstr "Nepodržana shema (protokol)."
+
+#. UGET_EVENT_ERROR_UNSUPPORTED_SCHEME
+#: ../uget/UgetEvent.c:92
+msgid "Unsupported file."
+msgstr "Nepodržana datoteka."
+
+#. UGET_EVENT_ERROR_UNSUPPORTED_FILE
+#: ../uget/UgetEvent.c:93
+msgid "post file not found."
+msgstr ""
+
+#. UGET_EVENT_ERROR_POST_FILE_NOT_FOUND
+#: ../uget/UgetEvent.c:94
+msgid "cookie file not found."
+msgstr ""
+
+#: ../uget/UgetMedia-youtube.c:275
+msgid "This video has been removed."
+msgstr ""
+
+#: ../uget/UgetMedia-youtube.c:288
+msgid "Error occurred during getting video info."
+msgstr ""
+
+#: ../uget/UgetMedia-youtube.c:534
+msgid "Error occurred during getting video web page."
+msgstr ""
+
+#: ../uget/UgetMedia-youtube.c:606
+msgid "No video_id found in URL of YouTube."
+msgstr ""
+
+#. 1 - 10
+#: ../uget/UgetPluginAria2.c:280
+msgid "aria2: an unknown error occurred."
+msgstr "aria2: dogodila se nepoznata greška."
+
+#: ../uget/UgetPluginAria2.c:281
+msgid "aria2: time out occurred."
+msgstr "aria2: istek vremena."
+
+#: ../uget/UgetPluginAria2.c:282
+msgid "aria2: resource was not found."
+msgstr "aria2: izvor nije pronađen."
+
+#: ../uget/UgetPluginAria2.c:283
+msgid ""
+"aria2 saw the specfied number of 'resource not found' error. See --max-file-"
+"not-found option"
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:284
+msgid "aria2: speed was too slow."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:285
+msgid "aria2: network problem occurred."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:286
+msgid "aria2: unfinished downloads."
+msgstr ""
+
+#. _("Not Resumable"),
+#: ../uget/UgetPluginAria2.c:288
+msgid "Out of resource"
+msgstr ""
+
+#. _(),
+#: ../uget/UgetPluginAria2.c:289
+msgid "aria2: piece length was different from one in .aria2 control file."
+msgstr ""
+
+#. 11 - 20
+#: ../uget/UgetPluginAria2.c:291
+msgid "aria2 was downloading same file."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:292
+msgid "aria2 was downloading same info hash torrent."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:293
+msgid "aria2: file already existed. See --allow-overwrite option."
+msgstr ""
+
+#. _("Output file can't be renamed."),
+#: ../uget/UgetPluginAria2.c:295
+msgid "aria2: could not open existing file."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:296
+msgid "aria2: could not create new file or truncate existing file."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:297
+msgid "aria2: file I/O error occurred."
+msgstr ""
+
+#. UGET_EVENT_ERROR_FOLDER_CREATE_FAILED
+#: ../uget/UgetPluginAria2.c:299
+msgid "aria2: name resolution failed."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:300
+msgid "aria2: could not parse Metalink document."
+msgstr ""
+
+#. 21 - 30
+#: ../uget/UgetPluginAria2.c:302
+msgid "aria2: FTP command failed."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:303
+msgid "aria2: HTTP response header was bad or unexpected."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:304
+msgid "Too many redirections."
+msgstr "Previše preusmjeravanja."
+
+#: ../uget/UgetPluginAria2.c:305
+msgid "aria2: HTTP authorization failed."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:306
+msgid "aria2: could not parse bencoded file(usually .torrent file)."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:307
+msgid "aria2: torrent file was corrupted or missing information."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:308
+msgid "aria2: Magnet URI was bad."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:309
+msgid ""
+"aria2: bad/unrecognized option was given or unexpected option argument was "
+"given."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:310
+msgid "aria2: remote server was unable to handle the request."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:311
+msgid "aria2: could not parse JSON-RPC request."
+msgstr ""
+
+#: ../uget/UgetPluginAria2.c:314
+msgid "No response. Is aria2 shutdown?"
+msgstr ""
+
+#. debug
+#: ../uget/UgetPluginAria2.c:641
+msgid "aria2: gid was removed."
+msgstr ""
+
+#: ../uget/UgetPluginMedia.c:489
+msgid "Failed to get media link."
+msgstr ""
+
+#: ../uget/UgetPluginMedia.c:505
+msgid "No matched media."
+msgstr ""
+
+#: ../ui-gtk/UgtkAboutDialog.c:46
+msgid "Download Manager"
+msgstr "Upravitelj preuzimanja"
+
+#: ../ui-gtk/UgtkAboutDialog.c:48
+msgid "translator-credits"
+msgstr "prevoditelj-zasluge"
+
+#: ../ui-gtk/UgtkAboutDialog.c:80
+msgid "uGet Founder: "
+msgstr "uGet osnivač: "
+
+#: ../ui-gtk/UgtkAboutDialog.c:81
+msgid "uGet Project Manager: "
+msgstr "uGet Upravitelj projektom "
+
+#. "↓"
+#. "↑"
+#: ../ui-gtk/UgtkApp-timeout.c:262 ../ui-gtk/UgtkTrayIcon.c:240
+msgid "tasks"
+msgstr "zadaci"
+
+#: ../ui-gtk/UgtkApp-timeout.c:398
+msgid "New from Clipboard"
+msgstr "Novo iz međuspremnika"
+
+#: ../ui-gtk/UgtkApp-timeout.c:400 ../ui-gtk/UgtkApp.c:916
+msgid "New Download"
+msgstr "Novo preuzimanje"
+
+#: ../ui-gtk/UgtkApp-timeout.c:424 ../ui-gtk/UgtkApp.c:1691
+#: ../ui-gtk/UgtkSettingDialog.c:119
+msgid "Clipboard"
+msgstr "Međuspremnik"
+
+#: ../ui-gtk/UgtkApp-timeout.c:426
+msgid "Command line"
+msgstr "Naredbeni redak"
+
+#: ../ui-gtk/UgtkApp-timeout.c:779
+msgid "Error Occurred"
+msgstr "Nastala je greška"
+
+#: ../ui-gtk/UgtkApp-timeout.c:780
+msgid "Error Occurred when downloading."
+msgstr "Nastala je greška pri preuzimanju."
+
+#: ../ui-gtk/UgtkApp-timeout.c:781
+msgid "Download Starting"
+msgstr "Preuzimanje započinje"
+
+#: ../ui-gtk/UgtkApp-timeout.c:782
+msgid "Starting download queue."
+msgstr "Pokretanje preuzimanja u popisu čekanja."
+
+#: ../ui-gtk/UgtkApp-timeout.c:783
+msgid "Download Completed"
+msgstr "Preuzimanje završeno"
+
+#: ../ui-gtk/UgtkApp-timeout.c:784
+msgid "All queuing downloads have been completed."
+msgstr "Sva preuzimanja s popisa čekanja su završena."
+
+#. ----------------------------------------------------
+#. frame for Status (start mode)
+#: ../ui-gtk/UgtkApp-ui.c:193 ../ui-gtk/UgtkDownloadForm.c:224
+#: ../ui-gtk/UgtkNodeView.c:1040
+msgid "Status"
+msgstr "Stanje"
+
+#. Summary Items - Category
+#. Download Columns - Category
+#: ../ui-gtk/UgtkApp-ui.c:195 ../ui-gtk/UgtkMenubar-ui.c:318
+#: ../ui-gtk/UgtkMenubar-ui.c:346 ../ui-gtk/UgtkMenubar-ui.c:431
+#: ../ui-gtk/UgtkNodeDialog.c:418 ../ui-gtk/UgtkNodeView.c:932
+#: ../ui-gtk/UgtkNodeView.c:1020 ../ui-gtk/UgtkSummary.c:131
+msgid "Category"
+msgstr "Kategorija"
+
+#: ../ui-gtk/UgtkApp-ui.c:279
+msgid "Create new download"
+msgstr "Stvori novo preuzimanje"
+
+#. New Download (accelerators)
+#. gtk_menu_shell_append ((GtkMenuShell*)menu, gtk_tearoff_menu_item_new() );
+#. New Download
+#: ../ui-gtk/UgtkApp-ui.c:289 ../ui-gtk/UgtkMenubar-ui.c:58
+#: ../ui-gtk/UgtkTrayIcon.c:59
+msgid "New _Download..."
+msgstr "Novo _preuzimanje..."
+
+#. New Category
+#: ../ui-gtk/UgtkApp-ui.c:300 ../ui-gtk/UgtkMenubar-ui.c:69
+msgid "New _Category..."
+msgstr "Nova _kategorija..."
+
+#. New Clipboard batch
+#: ../ui-gtk/UgtkApp-ui.c:310 ../ui-gtk/UgtkTrayIcon.c:70
+msgid "New Clipboard _batch..."
+msgstr ""
+
+#. New URL Sequence batch
+#: ../ui-gtk/UgtkApp-ui.c:321
+msgid "New _URL Sequence batch..."
+msgstr ""
+
+#. New Torrent
+#. separator
+#. gtk_menu_shell_append ((GtkMenuShell*)submenu, gtk_separator_menu_item_new() );
+#. New Torrent
+#: ../ui-gtk/UgtkApp-ui.c:335 ../ui-gtk/UgtkMenubar-ui.c:81
+#: ../ui-gtk/UgtkTrayIcon.c:83
+msgid "New Torrent..."
+msgstr "Novi torrent..."
+
+#. New Metalink
+#: ../ui-gtk/UgtkApp-ui.c:342 ../ui-gtk/UgtkMenubar-ui.c:87
+#: ../ui-gtk/UgtkTrayIcon.c:90
+msgid "New Metalink..."
+msgstr "Nova metapoveznica..."
+
+#: ../ui-gtk/UgtkApp-ui.c:356
+msgid "Save all settings"
+msgstr "Spremi sve postavke"
+
+#: ../ui-gtk/UgtkApp-ui.c:369
+msgid "Set selected download runnable"
+msgstr "Pokreni odabrano preuzimanje"
+
+#: ../ui-gtk/UgtkApp-ui.c:379
+msgid "Set selected download to pause"
+msgstr "Pauziraj odabrano preuzimanje"
+
+#: ../ui-gtk/UgtkApp-ui.c:389
+msgid "Set selected download properties"
+msgstr "Prikaži svojstva odabranog preuzimanja"
+
+#: ../ui-gtk/UgtkApp-ui.c:402
+msgid "Move selected download up"
+msgstr "Pomakni odabrano preuzimanje gore"
+
+#: ../ui-gtk/UgtkApp-ui.c:412
+msgid "Move selected download down"
+msgstr "Pomakni odabrano preuzimanje dolje"
+
+#: ../ui-gtk/UgtkApp-ui.c:422
+msgid "Move selected download to top"
+msgstr "Pomakni odabrano preuzimanje na vrh"
+
+#: ../ui-gtk/UgtkApp-ui.c:432
+msgid "Move selected download to bottom"
+msgstr "Pomakni odabrano preuzimanje na dno"
+
+#: ../ui-gtk/UgtkApp.c:884
+msgid "New Category"
+msgstr "Nova kategorija"
+
+#: ../ui-gtk/UgtkApp.c:895
+msgid "Copy - "
+msgstr "Kopiraj - "
+
+#: ../ui-gtk/UgtkApp.c:1052
+msgid "Category Properties"
+msgstr "Svojstva kategorije"
+
+#: ../ui-gtk/UgtkApp.c:1066
+msgid "Download Properties"
+msgstr "Svojstva preuzimanja"
+
+#: ../ui-gtk/UgtkApp.c:1308
+msgid "New Torrent"
+msgstr "Novi torrent"
+
+#: ../ui-gtk/UgtkApp.c:1324
+msgid "New Metalink"
+msgstr "Nova metapoveznica"
+
+#: ../ui-gtk/UgtkApp.c:1333
+msgid "Open Torrent file"
+msgstr "Otvori datoteku torrenta"
+
+#: ../ui-gtk/UgtkApp.c:1336
+msgid "Torrent file (*.torrent)"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1349
+msgid "Open Metalink file"
+msgstr "Otvori datoteku metapoveznice"
+
+#: ../ui-gtk/UgtkApp.c:1389
+msgid "Failed to save category file."
+msgstr "Neuspjelo spremanje datoteke kategorije."
+
+#: ../ui-gtk/UgtkApp.c:1409
+msgid "Failed to load category file."
+msgstr "Neuspjelo učitavanje datoteke kategorije."
+
+#: ../ui-gtk/UgtkApp.c:1420
+msgid "Save Category file"
+msgstr "Spremi datoteku kategorije"
+
+#: ../ui-gtk/UgtkApp.c:1438
+msgid "Open Category file"
+msgstr "Otvori datoteku kategorije"
+
+#: ../ui-gtk/UgtkApp.c:1441
+msgid "JSON file (*.json)"
+msgstr ""
+
+#. add link
+#: ../ui-gtk/UgtkApp.c:1497
+msgid "Link <A>"
+msgstr "Poveznica <A>"
+
+#. add image
+#: ../ui-gtk/UgtkApp.c:1502
+msgid "Image <IMG>"
+msgstr "Slika <IMG>"
+
+#: ../ui-gtk/UgtkApp.c:1547
+msgid "Text File"
+msgstr "Tekstna datoteka"
+
+#: ../ui-gtk/UgtkApp.c:1594
+msgid "Import URLs from HTML file"
+msgstr "Uvezi URL-ove s HTML datoteke"
+
+#: ../ui-gtk/UgtkApp.c:1597
+msgid "HTML file (*.htm, *.html)"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1609
+msgid "Import URLs from text file"
+msgstr "Uvezi URL-ove s tekstne datoteke"
+
+#: ../ui-gtk/UgtkApp.c:1612
+msgid "Plain text file"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1624
+msgid "Export URLs to text file"
+msgstr "Izvezi URL-ove u tekstnu datoteku"
+
+#: ../ui-gtk/UgtkApp.c:1643
+msgid "URL Sequence batch"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1670
+msgid "No URLs found in clipboard."
+msgstr "Nema pronađenih URL-ova u međuspremniku."
+
+#: ../ui-gtk/UgtkApp.c:1679
+msgid "All URLs had existed."
+msgstr "Svi URL-ovi su postojali."
+
+#: ../ui-gtk/UgtkApp.c:1684
+msgid "Clipboard batch"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1774
+msgid "New"
+msgstr ""
+
+#: ../ui-gtk/UgtkApp.c:1815 ../ui-gtk/UgtkMenubar.c:460
+#: ../ui-gtk/UgtkMenubar.c:492 ../ui-gtk/UgtkNodeView.c:640
+msgid "Error"
+msgstr "Greška"
+
+#: ../ui-gtk/UgtkApp.c:1823 ../ui-gtk/UgtkSummary.c:176
+msgid "Message"
+msgstr "Poruka"
+
+#: ../ui-gtk/UgtkApp.c:1939
+#, c-format
+msgid "Selected %d items"
+msgstr "Odabrano %d stavki"
+
+#: ../ui-gtk/UgtkBanner.c:145 ../ui-gtk/UgtkBanner.c:165
+msgid "Attention uGetters:"
+msgstr "Pozor uGetteri:"
+
+#: ../ui-gtk/UgtkBanner.c:148
+msgid ""
+"we are running a Donation Drive for uGet's Future Development, please click "
+msgstr ""
+"pokrenuli smo prikupljanje donacija za budući razvoj uGet-a, kliknite ovdje"
+
+#: ../ui-gtk/UgtkBanner.c:151
+msgid "HERE"
+msgstr "OVDJE"
+
+#: ../ui-gtk/UgtkBanner.c:168
+msgid "please fill out this quick User Survey for uGet."
+msgstr "ispunite ovu brzu koriničku anketu za uGet."
+
+#: ../ui-gtk/UgtkBanner.c:171
+msgid "click here to take survey"
+msgstr "kliknite ovdje za početak ankete"
+
+#: ../ui-gtk/UgtkCategoryForm.c:62
+msgid "Category _name:"
+msgstr "Naziv _kategorije:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_active), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:82
+msgid "Active _downloads:"
+msgstr "Aktivna _preuzimanja:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_finished), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:92
+msgid "Capacity of Finished:"
+msgstr "Kapacitet završenog:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_recycled), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:102
+msgid "Capacity of Recycled:"
+msgstr "Kapacitet obrisanog:"
+
+#. ------------------------------------------------------------------------
+#. URI Matching conditions
+#: ../ui-gtk/UgtkCategoryForm.c:111
+msgid "URI Matching conditions"
+msgstr ""
+
+#: ../ui-gtk/UgtkCategoryForm.c:118
+msgid "Matched _Hosts:"
+msgstr ""
+
+#: ../ui-gtk/UgtkCategoryForm.c:129
+msgid "Matched _Schemes:"
+msgstr ""
+
+#: ../ui-gtk/UgtkCategoryForm.c:140
+msgid "Matched _Types:"
+msgstr ""
+
+#: ../ui-gtk/UgtkConfirmDialog.c:64
+msgid "Really Quit?"
+msgstr "Stvarno želite izaći?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:65
+msgid "Are you sure you want to quit?"
+msgstr "Jeste li sigurni da želite izaći?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:69
+msgid "Really delete files?"
+msgstr "Sigurno želite obristai datoteke?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:70
+msgid "Are you sure you want to delete files?"
+msgstr "Jeste li sigurni da želite obristi datoteke?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:74
+msgid "Really delete category?"
+msgstr "Sigurno želite obristai kategoriju?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:75
+msgid "Are you sure you want to delete category?"
+msgstr "Jeste li sigurni da želite obristi kategoriju?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:109
+msgid "Don't ask me again"
+msgstr "Ne pitaj me ponovno"
+
+#. URL - label
+#: ../ui-gtk/UgtkDownloadForm.c:111 ../ui-gtk/UgtkSequence.c:235
+msgid "_URI:"
+msgstr "_URI:"
+
+#. Mirrors - label
+#: ../ui-gtk/UgtkDownloadForm.c:130
+msgid "Mirrors:"
+msgstr "Zrcalni poslužitelji:"
+
+#. File - label
+#: ../ui-gtk/UgtkDownloadForm.c:146 ../ui-gtk/UgtkProxyForm.c:393
+msgid "File:"
+msgstr "Datoteka:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:166 ../ui-gtk/UgtkDownloadForm.c:897
+msgid "Select Folder"
+msgstr "Odaberi mapu"
+
+#. Folder - label
+#: ../ui-gtk/UgtkDownloadForm.c:174
+msgid "_Folder:"
+msgstr "_Mapa:"
+
+#. Referrer - label
+#: ../ui-gtk/UgtkDownloadForm.c:189
+msgid "Referrer:"
+msgstr ""
+
+#. "Max Connections:" - title label
+#: ../ui-gtk/UgtkDownloadForm.c:212
+msgid "_Max Connections:"
+msgstr "_Maksimalno veza:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:230 ../ui-gtk/UgtkMenubar-ui.c:574
+msgid "_Runnable"
+msgstr "_Pokreni"
+
+#: ../ui-gtk/UgtkDownloadForm.c:232
+msgid "P_ause"
+msgstr "P_auza"
+
+#. ----------------------------------------------------
+#. frame for login
+#: ../ui-gtk/UgtkDownloadForm.c:238
+msgid "Login"
+msgstr "Prijava"
+
+#. User - label
+#. user label & entry
+#: ../ui-gtk/UgtkDownloadForm.c:252 ../ui-gtk/UgtkProxyForm.c:149
+msgid "User:"
+msgstr "Korisnik:"
+
+#. Password - label
+#. password label & entry
+#: ../ui-gtk/UgtkDownloadForm.c:268 ../ui-gtk/UgtkProxyForm.c:160
+msgid "Password:"
+msgstr "Lozinka:"
+
+#. label - cookie file
+#: ../ui-gtk/UgtkDownloadForm.c:293
+msgid "Cookie file:"
+msgstr "Datoteka kolačića:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:310 ../ui-gtk/UgtkDownloadForm.c:953
+msgid "Select Cookie File"
+msgstr "Odaberi datoteku kolačića"
+
+#. label - post file
+#: ../ui-gtk/UgtkDownloadForm.c:319
+msgid "Post file:"
+msgstr ""
+
+#: ../ui-gtk/UgtkDownloadForm.c:336 ../ui-gtk/UgtkDownloadForm.c:1009
+msgid "Select Post File"
+msgstr ""
+
+#. label - user agent
+#: ../ui-gtk/UgtkDownloadForm.c:346
+msgid "User Agent:"
+msgstr "Korisnički agent:"
+
+#. Retry limit - label
+#: ../ui-gtk/UgtkDownloadForm.c:362
+msgid "Retry _limit:"
+msgstr "Ograničenje _pokušaja:"
+
+#. counts - label
+#: ../ui-gtk/UgtkDownloadForm.c:377
+msgid "counts"
+msgstr "pokušaja"
+
+#. Retry delay - label
+#: ../ui-gtk/UgtkDownloadForm.c:384
+msgid "Retry _delay:"
+msgstr "Odgoda _pokušaja:"
+
+#. seconds - label
+#: ../ui-gtk/UgtkDownloadForm.c:399
+msgid "seconds"
+msgstr "sekundi"
+
+#. label - Max upload speed
+#: ../ui-gtk/UgtkDownloadForm.c:406
+msgid "Max upload speed:"
+msgstr "Maks brzinja slanja:"
+
+#. label - "KiB/s"
+#: ../ui-gtk/UgtkDownloadForm.c:418 ../ui-gtk/UgtkDownloadForm.c:436
+#: ../ui-gtk/UgtkSettingForm.c:311 ../ui-gtk/UgtkSettingForm.c:323
+#: ../ui-gtk/UgtkSettingForm.c:612 ../ui-gtk/UgtkSettingForm.c:624
+msgid "KiB/s"
+msgstr "KiB/s"
+
+#. label - Max download speed
+#: ../ui-gtk/UgtkDownloadForm.c:424
+msgid "Max download speed:"
+msgstr "Maks brzina preuzimanja"
+
+#. Retrieve timestamp
+#: ../ui-gtk/UgtkDownloadForm.c:442
+msgid "Retrieve timestamp"
+msgstr "Prihvati vremenske oznake"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:51
+msgid "_File"
+msgstr "_Datoteka"
+
+#. Batch Downloads --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:94
+msgid "_Batch Downloads"
+msgstr ""
+
+#. Batch downloads - Clipboard batch
+#: ../ui-gtk/UgtkMenubar-ui.c:100
+msgid "_Clipboard batch..."
+msgstr ""
+
+#. Batch downloads - URL Sequence batch
+#: ../ui-gtk/UgtkMenubar-ui.c:110
+msgid "_URL Sequence batch..."
+msgstr ""
+
+#. Batch downloads - Text file import (.txt)
+#: ../ui-gtk/UgtkMenubar-ui.c:120
+msgid "_Text file import (.txt)..."
+msgstr "_Uvoz tekstne datoteke (.txt)..."
+
+#. Batch downloads - HTML file import (.html)
+#: ../ui-gtk/UgtkMenubar-ui.c:130
+msgid "_HTML file import (.html)..."
+msgstr "_Uvoz HTML datoteke (.html)..."
+
+#. Batch downloads - Export to Text file (.txt)
+#: ../ui-gtk/UgtkMenubar-ui.c:142
+msgid "_Export to Text file (.txt)..."
+msgstr "_Izvoz tekstne datoteke (.txt)..."
+
+#. Open Category
+#: ../ui-gtk/UgtkMenubar-ui.c:156
+msgid "_Open category..."
+msgstr "_Otvori kategoriju..."
+
+#. Save Category
+#: ../ui-gtk/UgtkMenubar-ui.c:167
+msgid "_Save category as..."
+msgstr "_Spremi kategoriju kao..."
+
+#. Save All
+#: ../ui-gtk/UgtkMenubar-ui.c:178
+msgid "Save _all settings"
+msgstr "Spremi _sve postavke"
+
+#. Offline mode
+#: ../ui-gtk/UgtkMenubar-ui.c:192
+msgid "Offline Mode"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:210
+msgid "_Edit"
+msgstr "_Uredi"
+
+#. menu.gtk_menu_shell_append((GtkMenuShell*)menu, gtk_tearoff_menu_item_new() );
+#. Settings shortcut
+#: ../ui-gtk/UgtkMenubar-ui.c:215 ../ui-gtk/UgtkTrayIcon.c:99
+msgid "Clipboard _Monitor"
+msgstr "Nadgledanje _međuspremnika"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:219 ../ui-gtk/UgtkTrayIcon.c:103
+msgid "Clipboard works quietly"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:223 ../ui-gtk/UgtkTrayIcon.c:107
+msgid "Command-line works quietly"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:227 ../ui-gtk/UgtkTrayIcon.c:111
+msgid "Skip existing URI"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:231 ../ui-gtk/UgtkSettingForm.c:223
+#: ../ui-gtk/UgtkTrayIcon.c:115
+msgid "Apply recent download settings"
+msgstr "Primijeni nedavne postavke preuzimanja"
+
+#. --- Completion Auto-Actions --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:238
+msgid "Completion _Auto-Actions"
+msgstr ""
+
+#. Completion Auto-Actions - Disable
+#: ../ui-gtk/UgtkMenubar-ui.c:244
+msgid "_Disable"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:249
+msgid "Hibernate"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:254
+msgid "Suspend"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:259
+msgid "Shutdown"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:264
+msgid "Reboot"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:269
+msgid "Custom"
+msgstr "Prilagođeno"
+
+#. Completion Auto-Actions - Remember
+#: ../ui-gtk/UgtkMenubar-ui.c:275
+msgid "Remember setting"
+msgstr "Zapamti postavke"
+
+#. Completion Auto-Actions - Help
+#: ../ui-gtk/UgtkMenubar-ui.c:279 ../ui-gtk/UgtkMenubar-ui.c:682
+msgid "_Help"
+msgstr "_Pomoć"
+
+#. --- Completion Auto-Actions --- end ---
+#. menu_item = gtk_menu_item_new_with_mnemonic (_("_Settings..."));
+#. Settings
+#: ../ui-gtk/UgtkMenubar-ui.c:285 ../ui-gtk/UgtkTrayIcon.c:122
+msgid "_Settings..."
+msgstr "_Postavke..."
+
+#: ../ui-gtk/UgtkMenubar-ui.c:304
+msgid "_View"
+msgstr "_Pogled"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:308
+msgid "_Toolbar"
+msgstr "_Alatna traka"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:313
+msgid "Statusbar"
+msgstr "Statusna traka"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:323
+msgid "_Summary"
+msgstr "_Sažetak"
+
+#. Summary Items --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:331
+msgid "Summary _Items"
+msgstr "Stavke _sažetka"
+
+#. Summary Items - Name
+#: ../ui-gtk/UgtkMenubar-ui.c:336
+msgid "_Name"
+msgstr "_Naziv"
+
+#. Summary Items - Folder
+#: ../ui-gtk/UgtkMenubar-ui.c:341
+msgid "_Folder"
+msgstr "_Mapa"
+
+#. Summary Items - Elapsed
+#. menu_item = gtk_check_menu_item_new_with_mnemonic (_("_Elapsed"));
+#. gtk_check_menu_item_set_active ((GtkCheckMenuItem*) menu_item, TRUE);
+#. gtk_menu_shell_append ((GtkMenuShell*) submenu, menu_item);
+#. menubar->view.summary_items.elapsed = menu_item;
+#. Summary Items - URL
+#. Download Columns - URL
+#: ../ui-gtk/UgtkMenubar-ui.c:356 ../ui-gtk/UgtkMenubar-ui.c:436
+msgid "_URL"
+msgstr "_URL"
+
+#. Summary Items - Message
+#: ../ui-gtk/UgtkMenubar-ui.c:361
+msgid "_Message"
+msgstr "_Poruka"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:376
+msgid "Download _Columns"
+msgstr "Stupci _preuzimanja"
+
+#. Download Columns - Complete
+#: ../ui-gtk/UgtkMenubar-ui.c:381
+msgid "_Complete"
+msgstr "_Završeno"
+
+#. Download Columns - Total
+#: ../ui-gtk/UgtkMenubar-ui.c:386
+msgid "_Size"
+msgstr "_Veličina"
+
+#. Download Columns - Percent (%)
+#: ../ui-gtk/UgtkMenubar-ui.c:391
+msgid "_Percent '%'"
+msgstr "_Posto '%'"
+
+#. Download Columns - Elapsed
+#: ../ui-gtk/UgtkMenubar-ui.c:396
+msgid "_Elapsed"
+msgstr "_Pokrenuto"
+
+#. Download Columns - Left
+#: ../ui-gtk/UgtkMenubar-ui.c:401
+msgid "_Left"
+msgstr "_Preostalo"
+
+#. Download Columns - Speed
+#: ../ui-gtk/UgtkMenubar-ui.c:406 ../ui-gtk/UgtkNodeView.c:861
+msgid "Speed"
+msgstr "Brzina"
+
+#. Download Columns - Up Speed
+#: ../ui-gtk/UgtkMenubar-ui.c:411 ../ui-gtk/UgtkNodeView.c:875
+msgid "Up Speed"
+msgstr "Brzina slanja"
+
+#. Download Columns - Uploaded
+#: ../ui-gtk/UgtkMenubar-ui.c:416 ../ui-gtk/UgtkNodeView.c:889
+msgid "Uploaded"
+msgstr "Poslano"
+
+#. Download Columns - Ratio
+#: ../ui-gtk/UgtkMenubar-ui.c:421 ../ui-gtk/UgtkNodeView.c:903
+msgid "Ratio"
+msgstr "Omjer"
+
+#. Download Columns - Retry
+#: ../ui-gtk/UgtkMenubar-ui.c:426
+msgid "_Retry"
+msgstr "_Pokušaj ponovno"
+
+#. Download Columns - Added On
+#: ../ui-gtk/UgtkMenubar-ui.c:441 ../ui-gtk/UgtkNodeView.c:960
+msgid "Added On"
+msgstr "Dodano"
+
+#. Download Columns - Completed On
+#: ../ui-gtk/UgtkMenubar-ui.c:446 ../ui-gtk/UgtkNodeView.c:974
+msgid "Completed On"
+msgstr "Završeno"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:461
+msgid "_Category"
+msgstr "_Kategorija"
+
+#. New Category
+#: ../ui-gtk/UgtkMenubar-ui.c:466
+msgid "_New Category..."
+msgstr "_Nova kategorija..."
+
+#. Delete Category
+#: ../ui-gtk/UgtkMenubar-ui.c:476
+msgid "_Delete Category"
+msgstr "_Obriši kategoriju"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:517
+msgid "_Download"
+msgstr "_Preuzimanje"
+
+#. menu_item = gtk_image_menu_item_new_from_stock (GTK_STOCK_DELETE, accel_group);
+#: ../ui-gtk/UgtkMenubar-ui.c:529
+msgid "_Delete Entry"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:540
+msgid "Delete Entry and _File"
+msgstr ""
+
+#: ../ui-gtk/UgtkMenubar-ui.c:555
+msgid "Open _Containing folder"
+msgstr "Otvori _sadržajnu mapu"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:568
+msgid "Force Start"
+msgstr "Prisili pokretanje"
+
+#. Move to --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:596
+msgid "_Move To"
+msgstr "_Premjesti u"
+
+#. Priority --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:645
+msgid "Priority"
+msgstr "Prioritet"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:654
+msgid "_High"
+msgstr "_Visok"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:659
+msgid "_Normal"
+msgstr "_Normalan"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:664
+msgid "_Low"
+msgstr "_Nizak"
+
+#. Get Help Online
+#: ../ui-gtk/UgtkMenubar-ui.c:687
+msgid "Get Help Online"
+msgstr "Potražite pomoć online"
+
+#. Documentation
+#: ../ui-gtk/UgtkMenubar-ui.c:698
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#. Support Forum
+#: ../ui-gtk/UgtkMenubar-ui.c:709
+msgid "Support Forum"
+msgstr "Forum podrške"
+
+#. Submit Feedback
+#: ../ui-gtk/UgtkMenubar-ui.c:720
+msgid "Submit Feedback"
+msgstr "Prijavite povratnu informaciju"
+
+#. Report a Bug
+#: ../ui-gtk/UgtkMenubar-ui.c:731
+msgid "Report a Bug"
+msgstr "Prijavite grešku"
+
+#. Keyboard Shortcuts
+#: ../ui-gtk/UgtkMenubar-ui.c:742
+msgid "Keyboard Shortcuts"
+msgstr "Prečaci tipkovnice"
+
+#. Check for Updates
+#: ../ui-gtk/UgtkMenubar-ui.c:749
+msgid "Check for Updates"
+msgstr "Provjerite ažuriranja"
+
+#: ../ui-gtk/UgtkMenubar.c:187
+msgid "Settings"
+msgstr "Postavke"
+
+#: ../ui-gtk/UgtkMenubar.c:454
+#, c-format
+msgid "Can't launch default application for file '%s'."
+msgstr "Nemoguće pokretanje zadane aplikacije za datoteku '%s'."
+
+#: ../ui-gtk/UgtkMenubar.c:486
+#, c-format
+msgid "'%s' - This folder does not exist."
+msgstr "'%s' - Ova mapa ne postoji."
+
+#. title
+#: ../ui-gtk/UgtkNodeDialog.c:219 ../ui-gtk/UgtkNodeDialog.c:223
+msgid "URI had existed"
+msgstr ""
+
+#: ../ui-gtk/UgtkNodeDialog.c:221
+msgid "This URI had existed, are you sure to continue?"
+msgstr ""
+
+#: ../ui-gtk/UgtkNodeDialog.c:359
+msgid "General"
+msgstr "Općenito"
+
+#: ../ui-gtk/UgtkNodeDialog.c:361
+msgid "Advanced"
+msgstr "Napredno"
+
+#: ../ui-gtk/UgtkNodeDialog.c:370
+msgid "Category settings"
+msgstr "Postavke kategorije"
+
+#: ../ui-gtk/UgtkNodeDialog.c:372
+msgid "Default for new download 1"
+msgstr "Zadano za novo preuzimanje 1"
+
+#: ../ui-gtk/UgtkNodeDialog.c:374
+msgid "Default 2"
+msgstr "Zadano 2"
+
+#: ../ui-gtk/UgtkNodeView.c:143 ../ui-gtk/UgtkNodeView.c:608
+#: ../ui-gtk/UgtkSummary.c:107
+msgid "unnamed"
+msgstr "bezimeno"
+
+#: ../ui-gtk/UgtkNodeView.c:641
+msgid "Paused"
+msgstr "Pauzirano"
+
+#: ../ui-gtk/UgtkNodeView.c:642
+msgid "Uploading"
+msgstr "Slanje"
+
+#: ../ui-gtk/UgtkNodeView.c:643
+msgid "Completed"
+msgstr "Završeno"
+
+#: ../ui-gtk/UgtkNodeView.c:645
+msgid "Recycled"
+msgstr "Obrisano"
+
+#: ../ui-gtk/UgtkNodeView.c:646
+msgid "Queuing"
+msgstr "Na čekanju"
+
+#: ../ui-gtk/UgtkNodeView.c:647
+msgid "Active"
+msgstr "Aktivno"
+
+#: ../ui-gtk/UgtkNodeView.c:668
+msgid "All Status"
+msgstr "Sva stanja"
+
+#: ../ui-gtk/UgtkNodeView.c:773 ../ui-gtk/UgtkSettingDialog.c:101
+#: ../ui-gtk/UgtkSummary.c:100
+msgid "Name"
+msgstr "Naziv"
+
+#: ../ui-gtk/UgtkNodeView.c:790
+msgid "Complete"
+msgstr "Završeno"
+
+#: ../ui-gtk/UgtkNodeView.c:804
+msgid "Size"
+msgstr "Veličina"
+
+#: ../ui-gtk/UgtkNodeView.c:819
+msgid "%"
+msgstr "%"
+
+#: ../ui-gtk/UgtkNodeView.c:833
+msgid "Elapsed"
+msgstr "Pokrenuto"
+
+#: ../ui-gtk/UgtkNodeView.c:847
+msgid "Left"
+msgstr "Završeno"
+
+#: ../ui-gtk/UgtkNodeView.c:946 ../ui-gtk/UgtkSettingForm.c:584
+#: ../ui-gtk/UgtkSummary.c:143
+msgid "URI"
+msgstr "URI"
+
+#: ../ui-gtk/UgtkNodeView.c:997
+msgid "Quantity"
+msgstr "Kvantiteta"
+
+#. proxy type label & combo box
+#: ../ui-gtk/UgtkProxyForm.c:64
+msgid "Proxy:"
+msgstr "Proxy:"
+
+#: ../ui-gtk/UgtkProxyForm.c:67
+msgid "Don't use"
+msgstr "Ne koristi"
+
+#: ../ui-gtk/UgtkProxyForm.c:69
+msgid "Default"
+msgstr "Zadano"
+
+#. host label & entry
+#: ../ui-gtk/UgtkProxyForm.c:121
+msgid "Host:"
+msgstr "Računalo:"
+
+#. port label & entry
+#: ../ui-gtk/UgtkProxyForm.c:132
+msgid "Port:"
+msgstr "Ulaz:"
+
+#: ../ui-gtk/UgtkProxyForm.c:359
+msgid "Socket:"
+msgstr ""
+
+#: ../ui-gtk/UgtkProxyForm.c:369
+msgid "Socket args:"
+msgstr ""
+
+#: ../ui-gtk/UgtkProxyForm.c:379
+msgid "Element:"
+msgstr "Element:"
+
+#: ../ui-gtk/UgtkScheduleForm.c:57
+msgid "Mon"
+msgstr "Pon"
+
+#: ../ui-gtk/UgtkScheduleForm.c:58
+msgid "Tue"
+msgstr "Uto"
+
+#: ../ui-gtk/UgtkScheduleForm.c:59
+msgid "Wed"
+msgstr "Sri"
+
+#: ../ui-gtk/UgtkScheduleForm.c:60
+msgid "Thu"
+msgstr "Čet"
+
+#: ../ui-gtk/UgtkScheduleForm.c:61
+msgid "Fri"
+msgstr "Pet"
+
+#: ../ui-gtk/UgtkScheduleForm.c:62
+msgid "Sat"
+msgstr "Sub"
+
+#: ../ui-gtk/UgtkScheduleForm.c:63
+msgid "Sun"
+msgstr "Ned"
+
+#: ../ui-gtk/UgtkScheduleForm.c:104
+msgid "_Enable Scheduler"
+msgstr "_Omogući raspored"
+
+#. Turn off - label
+#: ../ui-gtk/UgtkScheduleForm.c:154
+msgid "Turn off"
+msgstr "Isključi"
+
+#. Turn off - help label
+#: ../ui-gtk/UgtkScheduleForm.c:159
+msgid "- stop all task"
+msgstr "- zaustavi sve zadatke"
+
+#. Normal - label
+#: ../ui-gtk/UgtkScheduleForm.c:169
+msgid "Normal"
+msgstr "Normalno"
+
+#. Normal - help label
+#: ../ui-gtk/UgtkScheduleForm.c:174
+msgid "- run task normally"
+msgstr "- pokreni zadatak normalno"
+
+#: ../ui-gtk/UgtkSelector.c:254
+msgid "All"
+msgstr "Sve"
+
+#: ../ui-gtk/UgtkSelector.c:259 ../ui-gtk/UgtkSequence.c:59
+msgid "None"
+msgstr "Nepoznato"
+
+#: ../ui-gtk/UgtkSelector.c:276
+msgid "Mark by filter"
+msgstr "Označi prema filteru"
+
+#: ../ui-gtk/UgtkSelector.c:294
+msgid "Mark URLs by host AND filename extension."
+msgstr "Označi URL-ove prema računalu I vrsti datoteke."
+
+#: ../ui-gtk/UgtkSelector.c:297
+msgid "This will reset all marks of URLs."
+msgstr ""
+
+#. filter view -----------------------
+#. left side
+#: ../ui-gtk/UgtkSelector.c:305
+msgid "Host"
+msgstr "Računalo"
+
+#. right side (filename extension)
+#: ../ui-gtk/UgtkSelector.c:309
+msgid "File Ext."
+msgstr "Vrsta datoteke."
+
+#: ../ui-gtk/UgtkSelector.c:449
+msgid "URL"
+msgstr "URL"
+
+#: ../ui-gtk/UgtkSelector.c:781
+msgid "Base hypertext reference"
+msgstr "Osnovna hipertekst preporuka"
+
+#. select all
+#: ../ui-gtk/UgtkSelector.c:797
+msgid "Mark _All"
+msgstr "Označi _sve"
+
+#. select none
+#: ../ui-gtk/UgtkSelector.c:801
+msgid "Mark _None"
+msgstr "Označi _ništa"
+
+#. select by filter
+#: ../ui-gtk/UgtkSelector.c:805
+msgid "_Mark by filter..."
+msgstr "_Označi prema filteru..."
+
+#: ../ui-gtk/UgtkSequence.c:61
+msgid "Num"
+msgstr ""
+
+#: ../ui-gtk/UgtkSequence.c:63
+msgid "Char"
+msgstr ""
+
+#. Label - To
+#: ../ui-gtk/UgtkSequence.c:89
+msgid "To:"
+msgstr "Na:"
+
+#. label - digits
+#: ../ui-gtk/UgtkSequence.c:104
+msgid "digits:"
+msgstr "znamenka:"
+
+#. label - case-sensitive
+#: ../ui-gtk/UgtkSequence.c:128
+msgid "case-sensitive"
+msgstr "velika-mala slova"
+
+#. e.g.
+#: ../ui-gtk/UgtkSequence.c:246
+msgid "e.g."
+msgstr "npr."
+
+#: ../ui-gtk/UgtkSequence.c:295
+#, fuzzy
+msgid "URI is not valid."
+msgstr "URL nije valjan."
+
+#: ../ui-gtk/UgtkSequence.c:303
+#, fuzzy
+msgid "No wildcard(*) character in URI entry."
+msgstr "Bez zamjenskih(*) znakova u URL unosu."
+
+#: ../ui-gtk/UgtkSequence.c:311
+msgid "No character in 'From' or 'To' entry."
+msgstr "Nema znakova u 'Od' ili 'Na' unosu."
+
+#: ../ui-gtk/UgtkSequence.c:393
+msgid "Preview"
+msgstr "Pregled"
+
+#: ../ui-gtk/UgtkSettingDialog.c:113
+msgid "User Interface"
+msgstr "Korisničko sučelje"
+
+#: ../ui-gtk/UgtkSettingDialog.c:125
+msgid "Bandwidth"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingDialog.c:131
+msgid "Scheduler"
+msgstr "Raspored"
+
+#: ../ui-gtk/UgtkSettingDialog.c:137
+msgid "Plug-in"
+msgstr "Dodatak"
+
+#: ../ui-gtk/UgtkSettingDialog.c:143
+msgid "Media website"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingDialog.c:149
+msgid "Others"
+msgstr "Ostalo"
+
+#. Monitor button
+#: ../ui-gtk/UgtkSettingForm.c:61
+msgid "_Enable clipboard monitor"
+msgstr "_Omogući nadgledanje međuspremnika"
+
+#. quiet mode
+#: ../ui-gtk/UgtkSettingForm.c:66
+msgid "_Quiet mode"
+msgstr "_Tihi način"
+
+#: ../ui-gtk/UgtkSettingForm.c:72 ../ui-gtk/UgtkSettingForm.c:488
+msgid "Default category index"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:84 ../ui-gtk/UgtkSettingForm.c:500
+msgid "Adding to Nth category if no matched category."
+msgstr ""
+
+#. media website
+#: ../ui-gtk/UgtkSettingForm.c:90
+msgid "_Monitor URL of media website"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:105
+msgid "Monitor clipboard for specified file types:"
+msgstr "_Nadgledaj međuspremnik za određene vrste datoteka:"
+
+#: ../ui-gtk/UgtkSettingForm.c:125
+msgid "Separate the types with character '|'."
+msgstr "Razdvoji vrste datoteka sa znakom '|'."
+
+#: ../ui-gtk/UgtkSettingForm.c:130
+msgid "You can use regular expressions here."
+msgstr "Možete koristiti uobičajene izraze ovdje."
+
+#: ../ui-gtk/UgtkSettingForm.c:176
+msgid "Confirmation"
+msgstr "Potvrda"
+
+#. Confirmation check buttons
+#: ../ui-gtk/UgtkSettingForm.c:182
+msgid "Show confirmation dialog on exit"
+msgstr "Prikaži dijalog potvrde pri izlazu"
+
+#: ../ui-gtk/UgtkSettingForm.c:185
+msgid "Confirm when deleting files"
+msgstr "Potvrdi pri brisanju datoteka"
+
+#: ../ui-gtk/UgtkSettingForm.c:191
+msgid "System Tray"
+msgstr "Traka sustava"
+
+#. System Tray check buttons
+#: ../ui-gtk/UgtkSettingForm.c:197
+msgid "Always show tray icon"
+msgstr "Uvijek prikaži ikonu trake sustava"
+
+#: ../ui-gtk/UgtkSettingForm.c:200
+msgid "Minimize to tray on startup"
+msgstr "Smanji u traku sustava pri pokretanju"
+
+#: ../ui-gtk/UgtkSettingForm.c:203
+msgid "Close to tray on window close"
+msgstr "Smanji u traku sustava pri zatvaranju prozora"
+
+#: ../ui-gtk/UgtkSettingForm.c:207
+msgid "Use Ubuntu's App Indicator"
+msgstr "Korisit Ubuntu App Indikator "
+
+#: ../ui-gtk/UgtkSettingForm.c:214
+msgid "Enable offline mode on startup"
+msgstr "Omogući odspojeni način pri pokretanju"
+
+#: ../ui-gtk/UgtkSettingForm.c:217
+msgid "Download starting notification"
+msgstr "Obavijest pokretanja preuzimanja"
+
+#: ../ui-gtk/UgtkSettingForm.c:220
+msgid "Sound when download is finished"
+msgstr "Zvuk završetka preuzimanja"
+
+#. widget = gtk_check_button_new_with_label (_("Skip existing URI from clipboard and command-line"));
+#. uiform->skip_existing = (GtkToggleButton*) widget;
+#. gtk_box_pack_start (vbox, widget, FALSE, FALSE, 1);
+#: ../ui-gtk/UgtkSettingForm.c:229
+msgid "Display large icon"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:295
+msgid "These will affect all plug-ins."
+msgstr ""
+
+#. Global speed limit
+#: ../ui-gtk/UgtkSettingForm.c:301
+msgid "Global speed limit"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:309 ../ui-gtk/UgtkSettingForm.c:610
+msgid "Max upload speed"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:321 ../ui-gtk/UgtkSettingForm.c:622
+msgid "Max download speed"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:354
+msgid "Completion Auto-Actions"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:362
+msgid "Custom command:"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:374
+msgid "Custom command if error occured:"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:424
+msgid "_Autosave"
+msgstr ""
+
+#. auto save interval label
+#: ../ui-gtk/UgtkSettingForm.c:435
+msgid "_Interval:"
+msgstr "_Interval:"
+
+#. auto save interval unit label
+#: ../ui-gtk/UgtkSettingForm.c:446
+msgid "minutes"
+msgstr "minuta"
+
+#. Commandline Settings
+#: ../ui-gtk/UgtkSettingForm.c:475
+msgid "Commandline Settings"
+msgstr "Postavke naredbenog redka"
+
+#. --quiet
+#: ../ui-gtk/UgtkSettingForm.c:482
+msgid "Use '--quiet' by default"
+msgstr "Koristi '--quiet' kao zadano"
+
+#: ../ui-gtk/UgtkSettingForm.c:554
+msgid "Plug-in matching order:"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:577
+msgid "Aria2 plug-in options"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:593
+msgid "RPC authorization secret token"
+msgstr ""
+
+#. ------------------------------------------------------------------------
+#. Speed Limits
+#: ../ui-gtk/UgtkSettingForm.c:602
+msgid "Global speed limit for aria2 only"
+msgstr ""
+
+#. ------------------------------------------------------------------------
+#. aria2 works on local device
+#. launch
+#: ../ui-gtk/UgtkSettingForm.c:635
+msgid "_Launch aria2 on startup"
+msgstr "_Pokreni aria2 pri pokretanju"
+
+#. shutdown
+#: ../ui-gtk/UgtkSettingForm.c:641
+msgid "_Shutdown aria2 on exit"
+msgstr "_Zatvori aria2 na izlazu"
+
+#. ------------------------------------------------------------------------
+#. Local options
+#: ../ui-gtk/UgtkSettingForm.c:647
+msgid "Launch aria2 on local device"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:656
+msgid "Path"
+msgstr "Putanja"
+
+#: ../ui-gtk/UgtkSettingForm.c:674
+msgid "Arguments"
+msgstr "Argumenti"
+
+#. Arguments - hint
+#: ../ui-gtk/UgtkSettingForm.c:679
+msgid "You must restart uGet after modifying it."
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:783
+msgid "Media matching mode:"
+msgstr ""
+
+#: ../ui-gtk/UgtkSettingForm.c:801
+msgid "Match conditions"
+msgstr ""
+
+#. Quality
+#: ../ui-gtk/UgtkSettingForm.c:810
+msgid "Quality:"
+msgstr ""
+
+#. Type
+#: ../ui-gtk/UgtkSettingForm.c:830
+msgid "Type:"
+msgstr ""
+
+#: ../ui-gtk/UgtkSummary.c:104
+msgid "File"
+msgstr "Datoteka"
+
+#: ../ui-gtk/UgtkSummary.c:119
+msgid "Folder"
+msgstr "Mapa"
+
+#: ../ui-gtk/UgtkSummary.c:262
+msgid "Item"
+msgstr "Stavka"
+
+#: ../ui-gtk/UgtkSummary.c:267
+msgid "Value"
+msgstr "Vrijednost"
+
+#. Copy All
+#: ../ui-gtk/UgtkSummary.c:299
+msgid "Copy _All"
+msgstr "Kopiraj _sve"
+
+#. Show window
+#: ../ui-gtk/UgtkTrayIcon.c:141
+msgid "Show window"
+msgstr "Prikaži prozor"
+
+#. Offline mode
+#: ../ui-gtk/UgtkTrayIcon.c:147
+msgid "_Offline Mode"
+msgstr "_Odspojen naćin"
+
+#~ msgid "_From:"
+#~ msgstr "_Od:"
+
+#~ msgid "F_rom:"
+#~ msgstr "O_d:"

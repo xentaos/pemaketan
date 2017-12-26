@@ -76,6 +76,7 @@ cd $repository
 # Membuat Index Section Main Xenta OS Repository
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/a/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/b/**/*.deb
+reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/b/base-files/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/c/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/d/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/e/**/*.deb
@@ -89,6 +90,7 @@ reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/p
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/l/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/l/libreoffice-style-xenta/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/m/**/*.deb
+reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/m/mdm/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/n/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/o/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/p/**/*.deb
@@ -100,6 +102,7 @@ reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/p
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/s/seed/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/t/**/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/u/**/*.deb
+reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/u/ubiquity/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/u/ubuntu-system-adjustments/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/v/**/*.deb
@@ -109,7 +112,9 @@ reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/p
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-artwork-applications/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-artwork-cinnamon/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-artwork-common/*.deb
+reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-backgrounds/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-backgrounds-arok/*.deb
+reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-base-common/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-common/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-icons/*.deb
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-info/*.deb
@@ -134,6 +139,7 @@ reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/p
 # reprepro -Vb . -C main includedeb       arok /home/$(whoami)/xentaos/pemaketan/packages/main/z/**/*.deb
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/a/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/b/**/*.changes
+reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/b/base-files/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/c/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/d/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/e/**/*.changes
@@ -147,6 +153,7 @@ reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/pack
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/l/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/l/libreoffice-style-xenta/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/m/**/*.changes
+reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/m/mdm/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/n/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/o/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/p/**/*.changes
@@ -158,6 +165,7 @@ reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/pack
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/s/seed/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/t/**/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/u/**/*.changes
+reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/u/ubiquity/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/u/ubuntu-system-adjustments/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/v/**/*.changes
@@ -167,7 +175,9 @@ reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/pack
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-artwork-applications/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-artwork-cinnamon/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-artwork-common/*.changes
+reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-backgrounds/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-backgrounds-arok/*.changes
+reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-base-common/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-common/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-icons/*.changes
 # reprepro -Vb . -C main include       arok /home/$(whoami)/xentaos/pemaketan/packages/main/x/xenta-info/*.changes

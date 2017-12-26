@@ -1,0 +1,44 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package uget
+dpkg-buildpackage: source version 2.0.10
+dpkg-buildpackage: source distribution arok
+dpkg-buildpackage: source changed by Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+ dpkg-source --before-build urlget-uget
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+test -x debian/rules
+rm -f debian/stamp-makefile-build debian/stamp-makefile-install
+GCONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1 /usr/bin/make  -C .  -k distclean
+make[1]: Entering directory '/home/dindin/xentaos/pemaketan/packages/import/u/urlget-uget'
+make[1]: *** No rule to make target 'distclean'.
+make[1]: Leaving directory '/home/dindin/xentaos/pemaketan/packages/import/u/urlget-uget'
+/usr/share/cdbs/1/class/makefile.mk:55: recipe for target 'makefile-clean' failed
+make: [makefile-clean] Error 2 (ignored)
+rm -f debian/stamp-autotools
+rmdir --ignore-fail-on-non-empty .
+rmdir: failed to remove '.': Invalid argument
+/usr/share/cdbs/1/class/autotools.mk:52: recipe for target 'makefile-clean' failed
+make: [makefile-clean] Error 1 (ignored)
+dh_clean 
+rm -f debian/stamp-autotools-files
+cd . && \
+  rm -f intltool-extract intltool-merge intltool-update po/.intltool-merge-cache; \
+  if test -d doc; then find doc -name '*.omf.out' -exec rm -f \{\} \; ; fi; \
+  if test -d help; then find help -name '*.omf.out' -exec rm -f \{\} \; ; fi
+ dpkg-source -b urlget-uget
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building uget in uget_2.0.10.tar.xz
+dpkg-source: info: building uget in uget_2.0.10.dsc
+ debian/rules build
+test -x debian/rules
+mkdir -p "."
+/usr/share/cdbs/1/rules/buildcore.mk:110: CDBS WARNING:    DEB_DH_BUILDDEB_ARGS is deprecated since 0.4.85
+touch debian/stamp-autotools-files
+chmod a+x /home/dindin/xentaos/pemaketan/packages/import/u/urlget-uget/./configure
+mkdir -p .
+cd . &&   CFLAGS="-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall" CXXFLAGS="-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall" CPPFLAGS="-Wdate-time -D_FORTIFY_SOURCE=2" LDFLAGS="-Wl,-Bsymbolic-functions -Wl,-z,relro" /home/dindin/xentaos/pemaketan/packages/import/u/urlget-uget/./configure --build=x86_64-linux-gnu  --prefix=/usr --includedir="\${prefix}/include" --mandir="\${prefix}/share/man" --infodir="\${prefix}/share/info" --sysconfdir=/etc --localstatedir=/var --libexecdir="\${prefix}/lib/uget" --srcdir=. --disable-maintainer-mode --disable-dependency-tracking --disable-silent-rules    
+configure: WARNING: unrecognized options: --disable-maintainer-mode
+configure: error: cannot find install-sh, install.sh, or shtool in "." "./.." "./../.."
+/usr/share/cdbs/1/class/autotools.mk:42: recipe for target 'debian/stamp-autotools' failed
+make: *** [debian/stamp-autotools] Error 1
+dpkg-buildpackage: error: debian/rules build gave error exit status 2
