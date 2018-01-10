@@ -286,18 +286,18 @@ Description: Paket Bawaan Sambutan Desktop Xenta OS.
  Bawaan Sambutan Desktop Xenta OS semua edisi.
 
 Package: xenta-x-theme
-Version: 1.3.3
+Version: 1.3.4
 Architecture: all
-Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
-Installed-Size: 1523
+Maintainer: Dindin Hernawan (Xenta OS) <dindinhernawan@yahoo.co.id>
+Installed-Size: 1658
 Homepage: https://github.com/xentaos/xenta-x-theme
 Priority: optional
 Section: gnome
-Filename: pool/main/x/xenta-x-theme/xenta-x-theme_1.3.3_all.deb
-Size: 265164
-SHA256: eb7b1b511de349e1d71dea7a3a0f67eab6ea471bf34c3b64b62a783a2a15d214
-SHA1: 93b90061e79fc5eecd7ffc4662bd15eeba883508
-MD5sum: 80de0e9447f6b237041b4780e7663f23
+Filename: pool/main/x/xenta-x-theme/xenta-x-theme_1.3.4_all.deb
+Size: 272288
+SHA256: a5bcf8b31442f911e5f9de3e5b098459fa772f9137f5219eb6402f0e482ef71f
+SHA1: ab3cdc662bc2435d8a223fcce0705288076be2af
+MD5sum: a9ebfbd06d3f8a77299f1a4decf90531
 Description: Paket Bawaan Theme Xenta X untuk Xenta OS.
  Paket secara bawaan berupa GTK, Windows Sistem dan xfwm Theme.
 
